@@ -1,0 +1,38 @@
+[
+    {
+        "prompt": "What is scrapegraph-ai?",
+        "answer": "ScrapegraphAI is an open-source library conceived to meet the demands of a dynamic web environment and data-centric world. Its mission is to usher in a new era of scraping tools, leveraging Large Language Models (LLMs) to offer enhanced flexibility and reduced maintenance burden for developers."
+    },
+    {
+        "prompt": "What sets Scrapegraph AI apart from the competition?",
+        "answer": "ScrapegraphAI stands apart from traditional web scraping tools by harnessing the capabilities of Large Language Models (LLMs). Unlike rigid methods that rely on predefined patterns or manual adjustments, ScrapegraphAI dynamically adapts to variations in website structures. This adaptability minimizes the need for ongoing developer involvement, ensuring continued functionality even amidst changes to website layouts."
+    },
+    {
+        "prompt": "What LLM models and providers are compatible with Scrapegraph-ai?",
+        "answer": "ScrapegraphAI a variety of well-known LLM models and providers to analyze web pages and extract the information requested by users. These models are specified within the graph configuration dictionary and can be used interchangeably, allowing you to define different models for LLM and embeddings as needed. You can utilize various local language models with tools like Ollama or through APIs from providers such as OpenAI, Groq, Azure, Gemini, Anthropic, DeepSeek, Mistral and others."
+    },
+    {
+        "prompt": "What functionalities does Scrapegraph AI offer?",
+        "answer": "ScrapegraphAI offers various scraping modes and other advanced features, such as extracting information from local files, single web pages, and multiple web pages. Additionally, it can transform the extracted information into audio. If you use GPT-4o, it can describe images."
+    },
+    {
+        "prompt": "Can ScrapeGraphAI handle different document formats?",
+        "answer": "Yes, ScrapeGraphAI can scrape information from various document formats such as XML, HTML, JSON, and more."
+    },
+    {
+        "prompt": "How does ScrapeGraphAI handle the context window limit of LLMs?",
+        "answer": "By splitting big websites/documents into chunks with overlaps and applying compression techniques to reduce the number of tokens. If multiple chunks are present, we will have multiple answers to the user prompt, and therefore, we merge them together in the last step of the scraping pipeline."
+    },
+    {
+        "prompt": "How can I contribute to ScrapeGraphAI?",
+        "answer": "You can contribute to ScrapeGraphAI by submitting bug reports, feature requests, or pull requests on the GitHub repository."
+    },
+    {
+        "prompt": "Give me an overview of Scrapegraph-ai.",
+        "answer": "ScrapeGraphAI is an open-source Python library designed to revolutionize scraping tools. In today’s data-intensive digital landscape, this library stands out by integrating Large Language Models (LLMs) and modular graph-based pipelines to automate the scraping of data from various sources (e.g., websites, local files etc.).\nSimply specify the information you need to extract, and ScrapeGraphAI handles the rest, providing a more flexible and low-maintenance solution compared to traditional scraping tools."
+    },
+    {
+        "prompt": "Why should I use Scrapegraph-ai?",
+        "answer": "Traditional web scraping tools often rely on fixed patterns or manual configuration to extract data from web pages. ScrapegraphAI, leveraging the power of LLMs, adapts to changes in website structures, reducing the need for constant developer intervention. This flexibility ensures that scrapers remain functional even when website layouts change."
+    }
+]
