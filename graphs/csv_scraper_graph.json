@@ -1,0 +1,27 @@
+[
+    {
+        "prompt": "What is the purpose of the CSVScraperGraph class in scrapegraph ai?",
+        "answer": "The `CSVScraperGraph` class in scrapegraph ai is a smart scraper tool that automates the process of extracting information from CSV files or directories using a natural language model to interpret and answer prompts."
+    },
+    {
+        "prompt": "What are the main attributes of the CSVScraperGraph class in scrapegraph ai?",
+        "answer": "The main attributes of the `CSVScraperGraph` class in scrapegraph ai are inherited from the `AbstractGraph` class, such as `prompt`, `config`, `source`, and `schema`. Additionally, it has the `input_key` attribute, which is either 'csv' or 'csv_dir' based on the source."
+    },
+    {
+        "prompt": "What is the role of the _create_graph method in the CSVScraperGraph class of scrapegraph ai?",
+        "answer": "The _create_graph method in the `CSVScraperGraph` class of scrapegraph ai is responsible for creating the graph of nodes representing the workflow for CSV scraping. It includes nodes for fetching the CSV data, processing it with a RAG (Retrieval-Augmented Generation) model, and generating the final answer."
+    },
+    {
+        "prompt": "What does the run method in the CSVScraperGraph class of scrapegraph ai do?",
+        "answer": "The run method in the `CSVScraperGraph` class of scrapegraph ai executes the CSV scraping process by providing the initial inputs to the graph and calling the graph's execute method. It then stores the final state and execution info and returns the answer to the prompt."
+    },
+    {
+        "prompt": "How does the CSVScraperGraph class in scrapegraph ai handle CSV files and directories?",
+        "answer": "The `CSVScraperGraph` class in scrapegraph ai determines the `input_key` attribute based on the source. If the source ends with 'csv', the `input_key` is set to 'csv', and if not, it is set to 'csv_dir'. This `input_key` is then used to provide the correct input to the graph's fetch node."
+    },
+    {
+        "prompt": "Show me the implementation of the CSVScraperGraph class in scrapegraph.",
+        "answer": "Sure, here's the implementation for the `CSVScraperGraph` class in ScrapeGraphAI:\n\n```python\n\"\"\"\nModule for creating the smart scraper\n\"\"\"\n\nfrom typing import Optional\n\nfrom .base_graph import BaseGraph\nfrom .abstract_graph import AbstractGraph\n\nfrom ..nodes import (\n    FetchNode,\n    RAGNode,\n    GenerateAnswerCSVNode\n)\n\n\nclass CSVScraperGraph(AbstractGraph):\n    \"\"\"\n    SmartScraper is a comprehensive web scraping tool that automates the process of extracting\n    information from web pages using a natural language model to interpret and answer prompts.\n    \"\"\"\n\n    def __init__(self, prompt: str, source: str, config: dict, schema: Optional[str] = None):\n        \"\"\"\n        Initializes the CSVScraperGraph with a prompt, source, and configuration.\n        \"\"\"\n        super().__init__(prompt, config, source, schema)\n\n        self.input_key = \"csv\" if source.endswith(\"csv\") else \"csv_dir\"\n\n    def _create_graph(self):\n        \"\"\"\n        Creates the graph of nodes representing the workflow for web scraping.\n        \"\"\"\n        fetch_node = FetchNode(\n            input=\"csv | csv_dir\",\n            output=[\"doc\"],\n        )\n        rag_node = RAGNode(\n            input=\"user_prompt & doc\",\n            output=[\"relevant_chunks\"],\n            node_config={\n                \"llm_model\": self.llm_model,\n                \"embedder_model\": self.embedder_model,\n            }\n        )\n        generate_answer_node = GenerateAnswerCSVNode(\n            input=\"user_prompt & (relevant_chunks | doc)\",\n            output=[\"answer\"],\n            node_config={\n                \"llm_model\": self.llm_model,\n                \"schema\": self.schema,\n            }\n        )\n\n        return BaseGraph(\n            nodes=[\n                fetch_node,\n                rag_node,\n                generate_answer_node,\n            ],\n            edges=[\n                (fetch_node, rag_node),\n                (rag_node, generate_answer_node)\n            ],\n            entry_point=fetch_node\n        )\n\n    def run(self) -> str:\n        \"\"\"\n        Executes the web scraping process and returns the answer to the prompt.\n        \"\"\"\n        inputs = {\"user_prompt\": self.prompt, self.input_key: self.source}\n        self.final_state, self.execution_info = self.graph.execute(inputs)\n\n        return self.final_state.get(\"answer\", \"No answer found.\")\n```"
+    }
+]
+  
