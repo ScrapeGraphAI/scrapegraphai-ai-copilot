@@ -1,0 +1,27 @@
+[
+    {
+        "prompt": "What is the purpose of the ImageToTextNode class in Scrapegraph AI?",
+        "answer": "The purpose of the `ImageToTextNode` class in Scrapegraph AI is to retrieve images from a list of URLs and return a description of the images using an image-to-text model."
+    },
+    {
+        "prompt": "What are the attributes of the ImageToTextNode class in Scrapegraph AI?",
+        "answer": "The `ImageToTextNode` class in Scrapegraph AI has three attributes: `llm_model`, which is an instance of the language model client used for image-to-text conversion, `verbose`, which is a boolean flag indicating whether to show print statements during execution, and `max_images`, which is the maximum number of images to be processed."
+    },
+    {
+        "prompt": "What does the execute method of the ImageToTextNode class in Scrapegraph AI do?",
+        "answer": "The `execute` method of the `ImageToTextNode` class in Scrapegraph AI generates text from an image using an image-to-text model. The method retrieves the image from the list of URLs provided in the state and returns the extracted text."
+    },
+    {
+        "prompt": "What happens if the input keys are not found in the state passed to the execute method of the ImageToTextNode class in Scrapegraph AI?",
+        "answer": "If the input keys are not found in the state passed to the `execute` method of the `ImageToTextNode` class in Scrapegraph AI, the method will not be able to retrieve the list of URLs, and the state will not be updated with the extracted text."
+    },
+    {
+        "prompt": "What is the purpose of the max_images attribute in the ImageToTextNode class in Scrapegraph AI?",
+        "answer": "The `max_images` attribute in the `ImageToTextNode` class in Scrapegraph AI is used to limit the number of images to be processed by the image-to-text model."
+    },
+    {
+        "prompt": "Show me the implementation of the ImageToTextNode class in Scrapegraph AI.",
+        "answer": "Sure, here's the implementation of the `ImageToTextNode` class in Scrapegraph AI:\n\n```python\n\"\"\"\nImageToTextNode Module\n\"\"\"\n\nfrom typing import List, Optional\n\nfrom ..utils.logging import get_logger\nfrom .base_node import BaseNode\n\n\nclass ImageToTextNode(BaseNode):\n    \"\"\"\n    Retrieve images from a list of URLs and return a description of the images using an image-to-text model.\n\n    Attributes:\n        llm_model: An instance of the language model client used for image-to-text conversion.\n        verbose (bool): A flag indicating whether to show print statements during execution.\n\n    Args:\n        input (str): Boolean expression defining the input keys needed from the state.\n        output (List[str]): List of output keys to be updated in the state.\n        node_config (dict): Additional configuration for the node.\n        node_name (str): The unique identifier name for the node, defaulting to \"ImageToText\".\n    \"\"\"\n\n    def __init__(\n        self,\n        input: str,\n        output: List[str],\n        node_config: Optional[dict] = None,\n        node_name: str = \"ImageToText\",\n    ):\n        super().__init__(node_name, \"node\", input, output, 1, node_config)\n\n        self.llm_model = node_config[\"llm_model\"]\n        self.verbose = (\n            False if node_config is None else node_config.get(\"verbose\", False)\n        )\n        self.max_images = 5 if node_config is None else node_config.get(\"max_images\", 5)\n\n    def execute(self, state: dict) -> dict:\n        \"\"\"\n        Generate text from an image using an image-to-text model. The method retrieves the image\n        from the list of URLs provided in the state and returns the extracted text.\n\n        Args:\n            state (dict): The current state of the graph. The input keys will be used to fetch the\n                            correct data types from the state.\n\n        Returns:\n            dict: The updated state with the input key containing the text extracted from the image.\n        \"\"\"\n\n        self.logger.info(f\"--- Executing {self.node_name} Node ---\")\n\n        input_keys = self.get_input_keys(state)\n        input_data = [state[key] for key in input_keys]\n        urls = input_data[0]\n\n        if isinstance(urls, str):\n            urls = [urls]\n        elif len(urls) == 0:\n            return state\n\n        # Skip the image-to-text conversion\n        if self.max_images < 1:\n            return state\n\n        img_desc = []\n        for url in urls[: self.max_images]:\n            try:\n                text_answer = self.llm_model.run(url)\n            except Exception as e:\n                text_answer = f\"Error: incompatible image format or model failure.\"\n            img_desc.append(text_answer)\n\n        state.update({self.output[0]: img_desc})\n        return state\n```"
+    }
+]
+  

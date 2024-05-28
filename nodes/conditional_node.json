@@ -1,0 +1,34 @@
+[
+    {
+      "prompt": "What is the purpose of the ConditionalNode class in ScrapeGraphAI?",
+      "answer": "The `ConditionalNode` class is a node that determines the next step in the graph's execution flow based on the presence and content of a specified key in the graph's state. It extends the BaseNode class by adding condition-based logic to the execution process."
+    },
+    {
+      "prompt": "What are the attributes of the ConditionalNode class in ScrapeGraphAI?",
+      "answer": "The attribute of the `ConditionalNode` class is `key_name`, which is the name of the key in the state to check for its presence."
+    },
+    {
+      "prompt": "What is the role of the key_name attribute in the ConditionalNode class in ScrapeGraphAI?",
+      "answer": "The `key_name` attribute is the name of the key to check in the graph's state. This is used to determine the path the graph's execution should take."
+    },
+    {
+      "prompt": "What are the methods of the ConditionalNode class in ScrapeGraphAI?",
+      "answer": "The methods of the `ConditionalNode` class are `__init__` and `execute`."
+    },
+    {
+      "prompt": "In ScrapeGraphAI, what is the purpose of the __init__ method in the ConditionalNode class?",
+      "answer": "The `__init__` method is the constructor method for initializing the `ConditionalNode` class with the required attributes, such as key_name and node_name."
+    },
+    {
+      "prompt": "What is the purpose of the execute method in the ConditionalNode class of ScrapeGraphAI?",
+      "answer": "The `execute` method is responsible for checking if the specified key is present in the state and deciding the next node accordingly. It returns the name of the next node to execute based on the presence of the key."
+    },
+    {
+        "prompt": "What class does the ScrapeGraphAI ConditionalNode inherit from?",
+        "answer": "The `ConditionalNode` inherits from the `BaseNode`."
+    },
+    {
+        "prompt": "Show me the implementation of the ConditionalNode in ScrapegraphAI.",
+        "answer": "Sure, here's the implementation of the `ConditionalNode` in ScrapeGraphAI:\n\n```python\n\"\"\"\" \nModule for implementing the conditional node\n\"\"\"\n\nfrom .base_node import BaseNode\n\n\nclass ConditionalNode(BaseNode):\n    \"\"\"\n    A node that determines the next step in the graph's execution flow based on \n    the presence and content of a specified key in the graph's state. It extends \n    the BaseNode by adding condition-based logic to the execution process.\n\n    This node type is used to implement branching logic within the graph, allowing \n    for dynamic paths based on the data available in the current state.\n\n    It is expected thar exactly two edges are created out of this node.\n    The first node is chosen for execution if the key exists and has a non-empty value,\n    and the second node is chosen if the key does not exist or is empty.\n\n    Attributes:\n        key_name (str): The name of the key in the state to check for its presence.\n\n    Args:\n        key_name (str): The name of the key to check in the graph's state. This is \n                        used to determine the path the graph's execution should take.\n        node_name (str, optional): The unique identifier name for the node. Defaults \n                                   to \"ConditionalNode\".\n\n    \"\"\"\n\n    def __init__(self, key_name: str, node_name=\"ConditionalNode\"):\n        \"\"\"\n        Initializes the node with the key to check and the next node names based on the condition.\n\n        Args:\n            key_name (str): The name of the key to check in the state.\n        \"\"\"\n\n        super().__init__(node_name, \"conditional_node\")\n        self.key_name = key_name\n\n    def execute(self, state: dict) -> dict:\n        \"\"\"\n        Checks if the specified key is present in the state and decides the next node accordingly.\n\n        Args:\n            state (dict): The current state of the graph.\n\n        Returns:\n            str: The name of the next node to execute based on the presence of the key.\n        \"\"\"\n\n        if self.key_name in state and len(state[self.key_name]) > 0:\n            state[\"next_node\"] = 0\n        else:\n            state[\"next_node\"] = 1\n        return state\n```"
+    }
+  ]

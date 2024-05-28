@@ -1,0 +1,27 @@
+[
+    {
+      "prompt": "What is the purpose of the TextToSpeechNode class in scrapegraph ai?",
+      "answer": "The `TextToSpeechNode` class in scrapegraph ai converts text to speech using the specified text-to-speech model."
+    },
+    {
+      "prompt": "What are the attributes of the TextToSpeechNode class in scrapegraph ai?",
+      "answer": "The `TextToSpeechNode` class in scrapegraph ai has two attributes: `tts_model`, which is an instance of the text-to-speech model client, and `verbose`, a boolean flag indicating whether to show print statements during execution."
+    },
+    {
+      "prompt": "What is the role of the execute method in the TextToSpeechNode class of scrapegraph ai?",
+      "answer": "The execute method in the `TextToSpeechNode` class of scrapegraph ai converts text to speech using the specified text-to-speech model. It takes the current state of the graph as an argument and returns the updated state with the output key containing the audio generated from the text."
+    },
+    {
+      "prompt": "What is the purpose of the input_keys variable in the execute method of the TextToSpeechNode class in scrapegraph ai?",
+      "answer": "The input_keys variable in the execute method of the `TextToSpeechNode` class in scrapegraph ai is used to interpret input keys based on the provided input expression. It helps fetch the correct data from the state using these input keys."
+    },
+    {
+      "prompt": "How does the TextToSpeechNode class in scrapegraph ai determine the text to translate?",
+      "answer": "The `TextToSpeechNode` class in scrapegraph ai fetches the data from the state based on the input keys. It then extracts the text to translate by getting the first value from the fetched data using `next(iter(input_data[0].values())))`."
+    },
+    {
+      "prompt": "Show me the implementation of the TextToSpeechNode class in scrapegraph ai.",
+      "answer": "Sure, here's the implementation for the `` class in ScrapeGraphAI:\n\n```python\n\"\"\"\nTextToSpeechNode Module\n\"\"\"\n\nfrom typing import List, Optional\n\nfrom ..utils.logging import get_logger\nfrom .base_node import BaseNode\n\n\nclass TextToSpeechNode(BaseNode):\n    \"\"\"\n    Converts text to speech using the specified text-to-speech model.\n\n    Attributes:\n        tts_model: An instance of the text-to-speech model client.\n        verbose (bool): A flag indicating whether to show print statements during execution.\n\n    Args:\n        input (str): Boolean expression defining the input keys needed from the state.\n        output (List[str]): List of output keys to be updated in the state.\n        node_config (dict): Additional configuration for the node.\n        node_name (str): The unique identifier name for the node, defaulting to \"TextToSpeech\".\n    \"\"\"\n\n    def __init__(\n        self,\n        input: str,\n        output: List[str],\n        node_config: Optional[dict] = None,\n        node_name: str = \"TextToSpeech\",\n    ):\n        super().__init__(node_name, \"node\", input, output, 1, node_config)\n\n        self.tts_model = node_config[\"tts_model\"]\n        self.verbose = (\n            False if node_config is None else node_config.get(\"verbose\", False)\n        )\n\n    def execute(self, state: dict) -> dict:\n        \"\"\"\n        Converts text to speech using the specified text-to-speech model.\n\n        Args:\n            state (dict): The current state of the graph. The input keys will be used to fetch the\n                            correct data types from the state.\n\n        Returns:\n            dict: The updated state with the output key containing the audio generated from the text.\n\n        Raises:\n            KeyError: If the input keys are not found in the state, indicating that the\n                        necessary information for generating the audio is missing.\n        \"\"\"\n\n        self.logger.info(f\"--- Executing {self.node_name} Node ---\")\n\n        # Interpret input keys based on the provided input expression\n        input_keys = self.get_input_keys(state)\n\n        # Fetching data from the state based on the input keys\n        input_data = [state[key] for key in input_keys]\n\n        # get the text to translate\n        text2translate = str(next(iter(input_data[0].values())))\n        # text2translate = str(input_data[0])\n\n        audio = self.tts_model.run(text2translate)\n\n        state.update({self.output[0]: audio})\n        return state\n```"
+    }
+]
+  
