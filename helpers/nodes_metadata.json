@@ -1,0 +1,48 @@
+[
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the SearchInternetNode node?",
+        "answer": "The purpose of the SearchInternetNode node in Scrapegraph-ai is to refactor the user's query into a search query and fetch the search result URLs."
+    },
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the FetchNode node?",
+        "answer": "The purpose of the FetchNode node in Scrapegraph-ai is to fetch input content from a given URL or file path."
+    },
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the GetProbableTagsNode node?",
+        "answer": "The purpose of the GetProbableTagsNode node in Scrapegraph-ai is to identify probable HTML tags from a document based on a user's question."
+    },
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the ParseNode node?",
+        "answer": "The purpose of the ParseNode node in Scrapegraph-ai is to parse document content to extract specific data."
+    },
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the RAGNode node?",
+        "answer": "The purpose of the RAGNode node in Scrapegraph-ai is to reduce the amount of text to be processed by identifying and retrieving the most relevant chunks of text based on the user's query."
+    },
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the GenerateAnswerNode node?",
+        "answer": "The purpose of the GenerateAnswerNode node in Scrapegraph-ai is to generate an answer based on the user's input and parsed document."
+    },
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the ConditionalNode node?",
+        "answer": "The purpose of the ConditionalNode node in Scrapegraph-ai is to decide the next node to execute based on a condition."
+    },
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the ImageToTextNode node?",
+        "answer": "The purpose of the ImageToTextNode node in Scrapegraph-ai is to convert image content to text by extracting visual information and interpreting it."
+    },
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the TextToSpeechNode node?",
+        "answer": "The purpose of the TextToSpeechNode node in Scrapegraph-ai is to convert text into spoken words, allowing for auditory representation of the text."
+    },
+    {
+        "prompt": "Show me the implementation of the nodes_metadata module in ScrapeGraphAI.",
+        "answer": "Here's the implementation of the `nodes_metadata` module in ScrapeGraphAI:\n```python\n\"\"\"\nNodes metadata for the scrapegraphai package.\n\"\"\"\n\nnodes_metadata = {\n    \"SearchInternetNode\": {\n        \"description\": \"\"\"Refactors the user's query into a search\n          query and fetches the search result URLs.\"\"\",\n        \"type\": \"node\",\n        \"args\": {\n            \"user_input\": \"User's query or question.\"\n        },\n        \"returns\": \"Updated state with the URL of the search result under 'url' key.\"\n    },\n    \"FetchNode\": {\n        \"description\": \"Fetches input content from a given URL or file path.\",\n        \"type\": \"node\",\n        \"args\": {\n            \"url\": \"The URL from which to fetch HTML content.\"\n        },\n        \"returns\": \"Updated state with fetched HTML content under 'document' key.\"\n    },\n    \"GetProbableTagsNode\": {\n        \"description\": \"Identifies probable HTML tags from a document based on a user's question.\",\n        \"type\": \"node\",\n        \"args\": {\n            \"user_input\": \"User's query or question.\",\n            \"document\": \"HTML content as a string.\"\n        },\n        \"returns\": \"Updated state with probable HTML tags under 'tags' key.\"\n    },\n    \"ParseNode\": {\n        \"description\": \"Parses document content to extract specific data.\",\n        \"type\": \"node\",\n        \"args\": {\n            \"doc_type\": \"Type of the input document. Default is 'html'.\",\n            \"document\": \"The document content to be parsed.\",\n        },\n        \"returns\": \"Updated state with extracted data under 'parsed_document' key.\"\n    },\n    \"RAGNode\": {\n        \"description\": \"\"\"A node responsible for reducing the amount of text to be processed \n        by identifying and retrieving the most relevant chunks of text based on the user's query. \n        Utilizes RecursiveCharacterTextSplitter for chunking, Html2TextTransformer for HTML to text \n        conversion, and a combination of FAISS and OpenAIEmbeddings \n        for efficient information retrieval.\"\"\",\n        \"type\": \"node\",\n        \"args\": {\n            \"user_input\": \"The user's query or question guiding the retrieval.\",\n            \"document\": \"The document content to be processed and compressed.\"\n        },\n        \"returns\": \"\"\"Updated state with 'relevant_chunks' key containing\n         the most relevant text chunks.\"\"\"\n    },\n    \"GenerateAnswerNode\": {\n        \"description\": \"Generates an answer based on the user's input and parsed document.\",\n        \"type\": \"node\",\n        \"args\": {\n            \"user_input\": \"User's query or question.\",\n            \"parsed_document\": \"Data extracted from the input document.\"\n        },\n        \"returns\": \"Updated state with the answer under 'answer' key.\"\n    },\n    \"ConditionalNode\": {\n        \"description\": \"Decides the next node to execute based on a condition.\",\n        \"type\": \"conditional_node\",\n        \"args\": {\n            \"key_name\": \"The key in the state to check for a condition.\",\n            \"next_nodes\": \"\"\"A list of two nodes specifying the next node \n            to execute based on the condition's outcome.\"\"\"\n        },\n        \"returns\": \"The name of the next node to execute.\"\n    },\n    \"ImageToTextNode\": {\n        \"description\": \"\"\"Converts image content to text by \n        extracting visual information and interpreting it.\"\"\",\n        \"type\": \"node\",\n        \"args\": {\n            \"image_data\": \"Data of the image to be processed.\"\n        },\n        \"returns\": \"Updated state with the textual description of the image under 'image_text' key.\"\n    },\n    \"TextToSpeechNode\": {\n        \"description\": \"\"\"Converts text into spoken words, allow\n        ing for auditory representation of the text.\"\"\",\n        \"type\": \"node\",\n        \"args\": {\n            \"text\": \"The text to be converted into speech.\"\n        },\n        \"returns\": \"Updated state with the speech audio file or data under 'speech_audio' key.\"\n    }\n}\n```"
+    },
+    {
+        "prompt": "What is the purpose of the nodes_metadata module in scrapegraph ai?",
+        "answer": "The purpose of the `nodes_metadata` module in ScrapeGraphAI is to hold the metadata for nodes, so that it won't clutter the classes where the nodes are implemented."
+    }
+]
+
+  
