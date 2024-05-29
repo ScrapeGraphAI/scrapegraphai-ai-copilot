@@ -1,0 +1,35 @@
+[
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the convert_to_csv function?",
+        "answer": "The purpose of the convert_to_csv function in Scrapegraph-ai is to convert a dictionary to a CSV file and save it at a specified location."
+    },
+    {
+        "prompt": "What are the arguments of the convert_to_csv function in Scrapegraph-ai?",
+        "answer": "The convert_to_csv function in Scrapegraph-ai takes three arguments: `data`, which is the data to be converted into CSV format, `filename`, which is the name of the output CSV file, and `position`, which is the file path where the CSV should be saved. The `position` argument is optional and defaults to the directory of the caller script if not provided."
+    },
+    {
+        "prompt": "What does the convert_to_csv function in Scrapegraph-ai do if the '.csv' extension is present in the filename?",
+        "answer": "The convert_to_csv function in Scrapegraph-ai removes the '.csv' extension from the filename if it is present."
+    },
+    {
+        "prompt": "What does the convert_to_csv function in Scrapegraph-ai do if the position argument is not provided?",
+        "answer": "If the position argument is not provided, the convert_to_csv function in Scrapegraph-ai uses the directory of the caller script as the position."
+    },
+    {
+        "prompt": "What does the convert_to_csv function in Scrapegraph-ai do if the specified directory does not exist?",
+        "answer": "The convert_to_csv function in Scrapegraph-ai raises a `FileNotFoundError` if the specified directory does not exist."
+    },
+    {
+        "prompt": "What does the convert_to_csv function in Scrapegraph-ai do if write permissions are lacking for the directory?",
+        "answer": "The convert_to_csv function in Scrapegraph-ai raises a `PermissionError` if write permissions are lacking for the directory."
+    },
+    {
+        "prompt": "What does the convert_to_csv function in Scrapegraph-ai do if the data argument is not a dictionary?",
+        "answer": "The convert_to_csv function in Scrapegraph-ai raises a `TypeError` if the data argument is not a dictionary."
+    },
+    {
+        "prompt": "What does the convert_to_csv function in Scrapegraph-ai return?",
+        "answer": "The convert_to_csv function in Scrapegraph-ai does not return anything."
+    }
+]
+  

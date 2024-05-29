@@ -1,0 +1,11 @@
+[
+    {
+        "prompt": "What is the purpose of the robots dictionary in scrapegraph ai?",
+        "answer": "The `robots` dictionary is used for mapping the models in ai agents."
+    },
+    {
+        "prompt": "How is the robots dictionary implemented in scrapegraph AI?",
+        "answer": "Here's the implementation of the `robots` dictionary in ScrapeGraphAI: ```python robots_dictionary = { \"gpt-3.5-turbo\": [\"GPTBot\", \"ChatGPT-user\"], \"gpt-4-turbo\": [\"GPTBot\", \"ChatGPT-user\"], \"claude\": [\"Claude-Web\", \"ClaudeBot\"], \"perplexity\": \"PerplexityBot\", \"cohere\": \"cohere-ai\", \"anthropic\": \"anthropic-ai\" } ```"
+    }
+]
+

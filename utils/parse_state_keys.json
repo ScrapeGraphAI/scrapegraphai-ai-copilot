@@ -1,0 +1,35 @@
+[
+    {
+        "prompt": "In Scrapegraph-ai, what is the purpose of the parse_expression function?",
+        "answer": "The purpose of the `parse_expression` function in Scrapegraph-ai is to parse a complex boolean expression involving state keys and return a list of state keys that match the boolean expression, ensuring each key appears only once."
+    },
+    {
+        "prompt": "What are the arguments of the parse_expression function in Scrapegraph-ai?",
+        "answer": "The `parse_expression` function in Scrapegraph-ai takes two arguments: `expression`, which is the boolean expression to parse, and `state`, which is a dictionary of state keys used to evaluate the expression."
+    },
+    {
+        "prompt": "What does the parse_expression function in Scrapegraph-ai do if the expression is empty?",
+        "answer": "The `parse_expression` function in Scrapegraph-ai raises a `ValueError` if the expression is empty."
+    },
+    {
+        "prompt": "What does the parse_expression function in Scrapegraph-ai do if there are adjacent state keys without an operator between them?",
+        "answer": "The `parse_expression` function in Scrapegraph-ai raises a `ValueError` if there are adjacent state keys without an operator between them."
+    },
+    {
+        "prompt": "What does the parse_expression function in Scrapegraph-ai do if there are operators with empty adjacent tokens or at the start/end?",
+        "answer": "The `parse_expression` function in Scrapegraph-ai raises a `ValueError` if there are operators with empty adjacent tokens or at the start/end."
+    },
+    {
+        "prompt": "What does the parse_expression function in Scrapegraph-ai do if there are unbalanced parentheses in the expression?",
+        "answer": "The `parse_expression` function in Scrapegraph-ai raises a `ValueError` if there are unbalanced parentheses in the expression."
+    },
+    {
+        "prompt": "What does the parse_expression function in Scrapegraph-ai do if no state keys match the expression?",
+        "answer": "The `parse_expression` function in Scrapegraph-ai raises a `ValueError` if no state keys match the expression."
+    },
+    {
+        "prompt": "What does the parse_expression function in Scrapegraph-ai return?",
+        "answer": "The `parse_expression` function in Scrapegraph-ai returns a list of state keys that match the boolean expression, ensuring each key appears only once."
+    }
+]
+  
