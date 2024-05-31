@@ -1,39 +1,39 @@
 
 [
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the cleanup_html function?",
-        "answer": "The purpose of the `cleanup_html` function in Scrapegraph-ai is to process HTML content by removing unnecessary tags, minifying the HTML, and extracting the title and body content."
+        "prompt": "In scrapegraphai, what is the purpose of the cleanup_html function?",
+        "answer": "The purpose of the `cleanup_html` function in scrapegraphai is to process HTML content by removing unnecessary tags, minifying the HTML, and extracting the title and body content."
     },
     {
-        "prompt": "What are the arguments of the cleanup_html function in Scrapegraph-ai?",
-        "answer": "The `cleanup_html` function in Scrapegraph-ai takes two arguments: `html_content`, which is the HTML content to be processed, and `base_url`, which is used to resolve relative URLs in the HTML content."
+        "prompt": "What are the arguments of the cleanup_html function in scrapegraphai?",
+        "answer": "The `cleanup_html` function in scrapegraphai takes two arguments: `html_content`, which is the HTML content to be processed, and `base_url`, which is used to resolve relative URLs in the HTML content."
     },
     {
-        "prompt": "How does the cleanup_html function in Scrapegraph-ai extract the title of an HTML document?",
-        "answer": "The `cleanup_html` function in Scrapegraph-ai extracts the title of an HTML document by using the `find` method of the `BeautifulSoup` object to find the `title` tag, and then using the `get_text` method to extract the text of the tag."
+        "prompt": "How does the cleanup_html function in scrapegraphai extract the title of an HTML document?",
+        "answer": "The `cleanup_html` function in scrapegraphai extracts the title of an HTML document by using the `find` method of the `BeautifulSoup` object to find the `title` tag, and then using the `get_text` method to extract the text of the tag."
     },
     {
-        "prompt": "How does the cleanup_html function in Scrapegraph-ai remove script and style tags from an HTML document?",
-        "answer": "The `cleanup_html` function in Scrapegraph-ai removes script and style tags from an HTML document by using the `find_all` method of the `BeautifulSoup` object to find all `script` and `style` tags, and then using the `extract` method to remove each tag from the document."
+        "prompt": "How does the cleanup_html function in scrapegraphai remove script and style tags from an HTML document?",
+        "answer": "The `cleanup_html` function in scrapegraphai removes script and style tags from an HTML document by using the `find_all` method of the `BeautifulSoup` object to find all `script` and `style` tags, and then using the `extract` method to remove each tag from the document."
     },
     {
-        "prompt": "How does the cleanup_html function in Scrapegraph-ai extract links from an HTML document?",
-        "answer": "The `cleanup_html` function in Scrapegraph-ai extracts links from an HTML document by using the `find_all` method of the `BeautifulSoup` object to find all `a` tags, and then using the `get` method to extract the value of the `href` attribute for each tag. The `urljoin` function is used to resolve relative URLs."
+        "prompt": "How does the cleanup_html function in scrapegraphai extract links from an HTML document?",
+        "answer": "The `cleanup_html` function in scrapegraphai extracts links from an HTML document by using the `find_all` method of the `BeautifulSoup` object to find all `a` tags, and then using the `get` method to extract the value of the `href` attribute for each tag. The `urljoin` function is used to resolve relative URLs."
     },
     {
-        "prompt": "How does the cleanup_html function in Scrapegraph-ai extract images from an HTML document?",
-        "answer": "The `cleanup_html` function in Scrapegraph-ai extracts images from an HTML document by using the `find_all` method of the `BeautifulSoup` object to find all `img` tags, and then using the `get` method to extract the value of the `src` attribute for each tag. The `urljoin` function is used to resolve relative URLs."
+        "prompt": "How does the cleanup_html function in scrapegraphai extract images from an HTML document?",
+        "answer": "The `cleanup_html` function in scrapegraphai extracts images from an HTML document by using the `find_all` method of the `BeautifulSoup` object to find all `img` tags, and then using the `get` method to extract the value of the `src` attribute for each tag. The `urljoin` function is used to resolve relative URLs."
     },
     {
-        "prompt": "How does the cleanup_html function in Scrapegraph-ai minify the body content of an HTML document?",
-        "answer": "The `cleanup_html` function in Scrapegraph-ai minifies the body content of an HTML document by using the `minify` function from the `minify_html` library on the string representation of the `body` tag."
+        "prompt": "How does the cleanup_html function in scrapegraphai minify the body content of an HTML document?",
+        "answer": "The `cleanup_html` function in scrapegraphai minifies the body content of an HTML document by using the `minify` function from the `minify_html` library on the string representation of the `body` tag."
     },
     {
-        "prompt": "What does the cleanup_html function in Scrapegraph-ai return?",
-        "answer": "The `cleanup_html` function in Scrapegraph-ai returns the title of the HTML document, the minified body content, a list of extracted links and a list of extracted images."
+        "prompt": "What does the cleanup_html function in scrapegraphai return?",
+        "answer": "The `cleanup_html` function in scrapegraphai returns the title of the HTML document, the minified body content, a list of extracted links and a list of extracted images."
     },
     {
-        "prompt": "What happens if the cleanup_html function in Scrapegraph-ai does not find any body content?",
-        "answer": "If the `cleanup_html` function in Scrapegraph-ai does not find any body content, it raises a `ValueError` with the message 'No HTML body content found, please try setting the `headless` flag to False in the graph configuration.'"
+        "prompt": "What happens if the cleanup_html function in scrapegraphai does not find any body content?",
+        "answer": "If the `cleanup_html` function in scrapegraphai does not find any body content, it raises a `ValueError` with the message 'No HTML body content found, please try setting the `headless` flag to False in the graph configuration.'"
     }
 ]

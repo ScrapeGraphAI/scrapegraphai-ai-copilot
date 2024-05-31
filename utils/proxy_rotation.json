@@ -1,42 +1,42 @@
 [
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the search_proxy_servers function?",
-        "answer": "The purpose of the `search_proxy_servers` function in Scrapegraph-ai is to search for proxy servers that match the specified broker criteria and return a list of proxy server URLs."
+        "prompt": "In scrapegraphai, what is the purpose of the search_proxy_servers function?",
+        "answer": "The purpose of the `search_proxy_servers` function in scrapegraphai is to search for proxy servers that match the specified broker criteria and return a list of proxy server URLs."
     },
     {
-        "prompt": "What are the arguments of the search_proxy_servers function in Scrapegraph-ai?",
-        "answer": "The `search_proxy_servers` function in Scrapegraph-ai takes six arguments: `anonymous`, `countryset`, `secure`, `timeout`, `max_shape`, and `search_outside_if_empty`."
+        "prompt": "What are the arguments of the search_proxy_servers function in scrapegraphai?",
+        "answer": "The `search_proxy_servers` function in scrapegraphai takes six arguments: `anonymous`, `countryset`, `secure`, `timeout`, `max_shape`, and `search_outside_if_empty`."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the _parse_proxy function?",
-        "answer": "The purpose of the `_parse_proxy` function in Scrapegraph-ai is to parse a proxy configuration with a known server and return a 'playwright' compliant proxy configuration."
+        "prompt": "In scrapegraphai, what is the purpose of the _parse_proxy function?",
+        "answer": "The purpose of the `_parse_proxy` function in scrapegraphai is to parse a proxy configuration with a known server and return a 'playwright' compliant proxy configuration."
     },
     {
-        "prompt": "What is the argument of the _parse_proxy function in Scrapegraph-ai?",
-        "answer": "The `_parse_proxy` function in Scrapegraph-ai takes one argument: `proxy`, which is the proxy configuration to parse."
+        "prompt": "What is the argument of the _parse_proxy function in scrapegraphai?",
+        "answer": "The `_parse_proxy` function in scrapegraphai takes one argument: `proxy`, which is the proxy configuration to parse."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the _search_proxy function?",
-        "answer": "The purpose of the `_search_proxy` function in Scrapegraph-ai is to search for a proxy server matching the specified broker criteria and return a 'playwright' compliant proxy configuration."
+        "prompt": "In scrapegraphai, what is the purpose of the _search_proxy function?",
+        "answer": "The purpose of the `_search_proxy` function in scrapegraphai is to search for a proxy server matching the specified broker criteria and return a 'playwright' compliant proxy configuration."
     },
     {
-        "prompt": "What is the argument of the _search_proxy function in Scrapegraph-ai?",
-        "answer": "The `_search_proxy` function in Scrapegraph-ai takes one argument: `proxy`, which is the proxy configuration to search for."
+        "prompt": "What is the argument of the _search_proxy function in scrapegraphai?",
+        "answer": "The `_search_proxy` function in scrapegraphai takes one argument: `proxy`, which is the proxy configuration to search for."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the is_ipv4_address function?",
-        "answer": "The purpose of the `is_ipv4_address` function in Scrapegraph-ai is to determine if a proxy address conforms to an IPv4 address."
+        "prompt": "In scrapegraphai, what is the purpose of the is_ipv4_address function?",
+        "answer": "The purpose of the `is_ipv4_address` function in scrapegraphai is to determine if a proxy address conforms to an IPv4 address."
     },
     {
-        "prompt": "What is the argument of the is_ipv4_address function in Scrapegraph-ai?",
-        "answer": "The `is_ipv4_address` function in Scrapegraph-ai takes one argument: `address`, which is the proxy address to check."
+        "prompt": "What is the argument of the is_ipv4_address function in scrapegraphai?",
+        "answer": "The `is_ipv4_address` function in scrapegraphai takes one argument: `address`, which is the proxy address to check."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the parse_or_search_proxy function?",
-        "answer": "The purpose of the `parse_or_search_proxy` function in Scrapegraph-ai is to parse a proxy configuration or search for a new one matching the specified broker criteria and return a 'playwright' compliant proxy configuration."
+        "prompt": "In scrapegraphai, what is the purpose of the parse_or_search_proxy function?",
+        "answer": "The purpose of the `parse_or_search_proxy` function in scrapegraphai is to parse a proxy configuration or search for a new one matching the specified broker criteria and return a 'playwright' compliant proxy configuration."
     },
     {
-        "prompt": "What is the argument of the parse_or_search_proxy function in Scrapegraph-ai?",
-        "answer": "The `parse_or_search_proxy` function in Scrapegraph-ai takes one argument: `proxy`, which is the proxy configuration to parse or search for."
+        "prompt": "What is the argument of the parse_or_search_proxy function in scrapegraphai?",
+        "answer": "The `parse_or_search_proxy` function in scrapegraphai takes one argument: `proxy`, which is the proxy configuration to parse or search for."
     }
 ]

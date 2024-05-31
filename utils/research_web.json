@@ -1,26 +1,26 @@
 [
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the search_on_web function?",
-        "answer": "The purpose of the `search_on_web` function in Scrapegraph-ai is to search the web for a given query using specified search engine options and return a list of URLs as strings that are the search results."
+        "prompt": "In scrapegraphai, what is the purpose of the search_on_web function?",
+        "answer": "The purpose of the `search_on_web` function in scrapegraphai is to search the web for a given query using specified search engine options and return a list of URLs as strings that are the search results."
     },
     {
-        "prompt": "What are the arguments of the search_on_web function in Scrapegraph-ai?",
-        "answer": "The `search_on_web` function in Scrapegraph-ai takes three arguments: `query`, `search_engine`, and `max_results`."
+        "prompt": "What are the arguments of the search_on_web function in scrapegraphai?",
+        "answer": "The `search_on_web` function in scrapegraphai takes three arguments: `query`, `search_engine`, and `max_results`."
     },
     {
-        "prompt": "What does the search_on_web function in Scrapegraph-ai do if the search engine specified is 'Google'?",
-        "answer": "The `search_on_web` function in Scrapegraph-ai uses the `google_search` function to search the web for the specified query and returns a list of URLs as strings that are the search results."
+        "prompt": "What does the search_on_web function in scrapegraphai do if the search engine specified is 'Google'?",
+        "answer": "The `search_on_web` function in scrapegraphai uses the `google_search` function to search the web for the specified query and returns a list of URLs as strings that are the search results."
     },
     {
-        "prompt": "What does the search_on_web function in Scrapegraph-ai do if the search engine specified is 'DuckDuckGo'?",
-        "answer": "The `search_on_web` function in Scrapegraph-ai uses the `DuckDuckGoSearchResults` class to search the web for the specified query and returns a list of URLs as strings that are the search results."
+        "prompt": "What does the search_on_web function in scrapegraphai do if the search engine specified is 'DuckDuckGo'?",
+        "answer": "The `search_on_web` function in scrapegraphai uses the `DuckDuckGoSearchResults` class to search the web for the specified query and returns a list of URLs as strings that are the search results."
     },
     {
-        "prompt": "What does the search_on_web function in Scrapegraph-ai do if the search engine specified is neither 'Google' nor 'DuckDuckGo'?",
-        "answer": "The `search_on_web` function in Scrapegraph-ai raises a `ValueError` if the search engine specified is neither 'Google' nor 'DuckDuckGo'."
+        "prompt": "What does the search_on_web function in scrapegraphai do if the search engine specified is neither 'Google' nor 'DuckDuckGo'?",
+        "answer": "The `search_on_web` function in scrapegraphai raises a `ValueError` if the search engine specified is neither 'Google' nor 'DuckDuckGo'."
     },
     {
-        "prompt": "What does the search_on_web function in Scrapegraph-ai return?",
-        "answer": "The `search_on_web` function in Scrapegraph-ai returns a list of URLs as strings that are the search results."
+        "prompt": "What does the search_on_web function in scrapegraphai return?",
+        "answer": "The `search_on_web` function in scrapegraphai returns a list of URLs as strings that are the search results."
     }
 ]  

@@ -1,18 +1,18 @@
 [
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the Bedrock Module in the following Python code: from langchain_aws import ChatBedrock",
+        "prompt": "In scrapegraphai, what is the purpose of the Bedrock Module in the following Python code: from langchain_aws import ChatBedrock",
         "answer": "The Bedrock Module in the Python code is importing the 'ChatBedrock' class from the 'langchain_aws' module. The purpose of this module is to provide a way to use Amazon Web Services (AWS) for language models."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the Bedrock class in the following Python code: class Bedrock(ChatBedrock)",
+        "prompt": "In scrapegraphai, what is the purpose of the Bedrock class in the following Python code: class Bedrock(ChatBedrock)",
         "answer": "The Bedrock class in the Python code is a subclass of the 'ChatBedrock' class. The purpose of this class is to provide a wrapper for the 'ChatBedrock' class that can be extended with additional methods if needed."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the __init__ method in the following Python class: class Bedrock(ChatBedrock): def __init__(self, llm_config: dict)",
+        "prompt": "In scrapegraphai, what is the purpose of the __init__ method in the following Python class: class Bedrock(ChatBedrock): def __init__(self, llm_config: dict)",
         "answer": "The __init__ method in the Bedrock class is a constructor. It is called when an object is created from the class and allows the class to initialize the object's attributes. In this case, it is used to initialize the 'ChatBedrock' superclass with the provided dictionary of configuration parameters."
     },
     {
-        "prompt": "In Scrapegraph-ai, how would you create an instance of the following Python class: class Bedrock(ChatBedrock): def __init__(self, llm_config: dict)",
+        "prompt": "In scrapegraphai, how would you create an instance of the following Python class: class Bedrock(ChatBedrock): def __init__(self, llm_config: dict)",
         "answer": "You can create an instance of the Bedrock class by calling the class with the necessary arguments for the __init__ method. In this case, you would need to provide a dictionary of configuration parameters. For example: 'my_instance = Bedrock({'param1': 'value1', 'param2': 'value2'})'."
     }
 ]

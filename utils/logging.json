@@ -1,39 +1,39 @@
 [
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the centralized logging system?",
-        "answer": "The purpose of the centralized logging system in Scrapegraph-ai is to provide a consistent and flexible way of logging for any library."
+        "prompt": "In scrapegraphai, what is the purpose of the centralized logging system?",
+        "answer": "The purpose of the centralized logging system in scrapegraphai is to provide a consistent and flexible way of logging for any library."
     },
     {
-        "prompt": "What is the _library_name variable in the centralized logging system in Scrapegraph-ai?",
-        "answer": "The `_library_name` variable in the centralized logging system in Scrapegraph-ai is the name of the library for which the logging system is being used."
+        "prompt": "What is the _library_name variable in the centralized logging system in scrapegraphai?",
+        "answer": "The `_library_name` variable in the centralized logging system in scrapegraphai is the name of the library for which the logging system is being used."
     },
     {
-        "prompt": "What is the _default_handler variable in the centralized logging system in Scrapegraph-ai?",
-        "answer": "The `_default_handler` variable in the centralized logging system in Scrapegraph-ai is the default handler for the library's root logger."
+        "prompt": "What is the _default_handler variable in the centralized logging system in scrapegraphai?",
+        "answer": "The `_default_handler` variable in the centralized logging system in scrapegraphai is the default handler for the library's root logger."
     },
     {
-        "prompt": "What is the _semaphore variable in the centralized logging system in Scrapegraph-ai?",
-        "answer": "The `_semaphore` variable in the centralized logging system in Scrapegraph-ai is a threading lock that is used to ensure that the setup of the library's root logger is thread-safe."
+        "prompt": "What is the _semaphore variable in the centralized logging system in scrapegraphai?",
+        "answer": "The `_semaphore` variable in the centralized logging system in scrapegraphai is a threading lock that is used to ensure that the setup of the library's root logger is thread-safe."
     },
     {
-        "prompt": "What does the get_logger function in the centralized logging system in Scrapegraph-ai do?",
-        "answer": "The `get_logger` function in the centralized logging system in Scrapegraph-ai returns a logger with the specified name, or the library's root logger if no name is specified."
+        "prompt": "What does the get_logger function in the centralized logging system in scrapegraphai do?",
+        "answer": "The `get_logger` function in the centralized logging system in scrapegraphai returns a logger with the specified name, or the library's root logger if no name is specified."
     },
     {
-        "prompt": "What does the set_verbosity function in the centralized logging system in Scrapegraph-ai do?",
-        "answer": "The `set_verbosity` function in the centralized logging system in Scrapegraph-ai sets the level of the library's root logger, which controls the verbosity of the logs."
+        "prompt": "What does the set_verbosity function in the centralized logging system in scrapegraphai do?",
+        "answer": "The `set_verbosity` function in the centralized logging system in scrapegraphai sets the level of the library's root logger, which controls the verbosity of the logs."
     },
     {
-        "prompt": "What does the set_handler function in the centralized logging system in Scrapegraph-ai do?",
-        "answer": "The `set_handler` function in the centralized logging system in Scrapegraph-ai adds the specified handler to the library's root logger."
+        "prompt": "What does the set_handler function in the centralized logging system in scrapegraphai do?",
+        "answer": "The `set_handler` function in the centralized logging system in scrapegraphai adds the specified handler to the library's root logger."
     },
     {
-        "prompt": "What does the set_formatting function in the centralized logging system in Scrapegraph-ai do?",
-        "answer": "The `set_formatting` function in the centralized logging system in Scrapegraph-ai sets the formatting for all handlers bound to the library's root logger."
+        "prompt": "What does the set_formatting function in the centralized logging system in scrapegraphai do?",
+        "answer": "The `set_formatting` function in the centralized logging system in scrapegraphai sets the formatting for all handlers bound to the library's root logger."
     },
     {
-        "prompt": "What does the warning_once function in the centralized logging system in Scrapegraph-ai do?",
-        "answer": "The `warning_once` function in the centralized logging system in Scrapegraph-ai emits warning logs with the same message only once."
+        "prompt": "What does the warning_once function in the centralized logging system in scrapegraphai do?",
+        "answer": "The `warning_once` function in the centralized logging system in scrapegraphai emits warning logs with the same message only once."
     }
 ]
   

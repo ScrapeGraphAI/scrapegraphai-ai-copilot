@@ -1,11 +1,11 @@
 [
     {
         "prompt": "What is the purpose of the SearchLinksWithContext class in scrapegraph ai?",
-        "answer": "The `SearchLinksWithContext` class in ScrapeGraph-AI generates a search query based on the user's input and searches the internet for relevant information. It constructs a prompt for the language model, submits it, and processes the output to generate a search query. Then, it uses the search query to find relevant information on the internet and updates the state with the generated answer."
+        "answer": "The `SearchLinksWithContext` class in scrapegraphai generates a search query based on the user's input and searches the internet for relevant information. It constructs a prompt for the language model, submits it, and processes the output to generate a search query. Then, it uses the search query to find relevant information on the internet and updates the state with the generated answer."
     },
     {
         "prompt": "What are the attributes of the SearchLinksWithContext class in scrapegraph ai?",
-        "answer": "The `SearchLinksWithContext` class in ScrapeGraph-AI has two attributes: `llm_model`, which is an instance of the language model client used for generating search queries, and `verbose`, a boolean flag indicating whether to show print statements during execution."
+        "answer": "The `SearchLinksWithContext` class in scrapegraphai has two attributes: `llm_model`, which is an instance of the language model client used for generating search queries, and `verbose`, a boolean flag indicating whether to show print statements during execution."
     },
     {
         "prompt": "What is the role of the execute method in the SearchLinksWithContext class of scrapegraph ai?",
@@ -13,7 +13,7 @@
     },
     {
         "prompt": "What is the purpose of the input_keys variable in the execute method of the SearchLinksWithContext class in scrapegraph ai?",
-        "answer": "The `input_keys` variable in the `execute` method of the `SearchLinksWithContext` class in ScrapeGraph-AI is used to interpret input keys based on the provided input expression. It helps fetch the correct data from the state using these input keys."
+        "answer": "The `input_keys` variable in the `execute` method of the `SearchLinksWithContext` class in scrapegraphai is used to interpret input keys based on the provided input expression. It helps fetch the correct data from the state using these input keys."
     },
     {
         "prompt": "What is the role of the PromptTemplate in the execute method of the SearchLinksWithContext class in scrapegraph ai?",

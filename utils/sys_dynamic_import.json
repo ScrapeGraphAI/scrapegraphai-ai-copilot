@@ -1,42 +1,42 @@
 [
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the srcfile_import function?",
-        "answer": "The purpose of the srcfile_import function in Scrapegraph-ai is to import a Python module from its source file."
+        "prompt": "In scrapegraphai, what is the purpose of the srcfile_import function?",
+        "answer": "The purpose of the srcfile_import function in scrapegraphai is to import a Python module from its source file."
     },
     {
-        "prompt": "What are the arguments of the srcfile_import function in Scrapegraph-ai?",
-        "answer": "The srcfile_import function in Scrapegraph-ai takes two arguments: `modpath` and `modname`."
+        "prompt": "What are the arguments of the srcfile_import function in scrapegraphai?",
+        "answer": "The srcfile_import function in scrapegraphai takes two arguments: `modpath` and `modname`."
     },
     {
-        "prompt": "What does the srcfile_import function in Scrapegraph-ai do if the spec for the module is missing?",
-        "answer": "The srcfile_import function in Scrapegraph-ai raises an `ImportError` if the spec for the module is missing."
+        "prompt": "What does the srcfile_import function in scrapegraphai do if the spec for the module is missing?",
+        "answer": "The srcfile_import function in scrapegraphai raises an `ImportError` if the spec for the module is missing."
     },
     {
-        "prompt": "What does the srcfile_import function in Scrapegraph-ai do if the spec loader for the module is missing?",
-        "answer": "The srcfile_import function in Scrapegraph-ai raises an `ImportError` if the spec loader for the module is missing."
+        "prompt": "What does the srcfile_import function in scrapegraphai do if the spec loader for the module is missing?",
+        "answer": "The srcfile_import function in scrapegraphai raises an `ImportError` if the spec loader for the module is missing."
     },
     {
-        "prompt": "What does the srcfile_import function in Scrapegraph-ai return?",
-        "answer": "The srcfile_import function in Scrapegraph-ai returns the imported module."
+        "prompt": "What does the srcfile_import function in scrapegraphai return?",
+        "answer": "The srcfile_import function in scrapegraphai returns the imported module."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the dynamic_import function?",
-        "answer": "The purpose of the dynamic_import function in Scrapegraph-ai is to import a Python module at runtime."
+        "prompt": "In scrapegraphai, what is the purpose of the dynamic_import function?",
+        "answer": "The purpose of the dynamic_import function in scrapegraphai is to import a Python module at runtime."
     },
     {
-        "prompt": "What are the arguments of the dynamic_import function in Scrapegraph-ai?",
-        "answer": "The dynamic_import function in Scrapegraph-ai takes two arguments: `modname` and `message`."
+        "prompt": "What are the arguments of the dynamic_import function in scrapegraphai?",
+        "answer": "The dynamic_import function in scrapegraphai takes two arguments: `modname` and `message`."
     },
     {
-        "prompt": "What does the dynamic_import function in Scrapegraph-ai do if the module is not already imported?",
-        "answer": "The dynamic_import function in Scrapegraph-ai imports the module using the `importlib.import_module` function if the module is not already imported."
+        "prompt": "What does the dynamic_import function in scrapegraphai do if the module is not already imported?",
+        "answer": "The dynamic_import function in scrapegraphai imports the module using the `importlib.import_module` function if the module is not already imported."
     },
     {
-        "prompt": "What does the dynamic_import function in Scrapegraph-ai do if there is an error importing the module?",
-        "answer": "The dynamic_import function in Scrapegraph-ai raises an `ImportError` if there is an error importing the module."
+        "prompt": "What does the dynamic_import function in scrapegraphai do if there is an error importing the module?",
+        "answer": "The dynamic_import function in scrapegraphai raises an `ImportError` if there is an error importing the module."
     },
     {
-        "prompt": "What does the dynamic_import function in Scrapegraph-ai return?",
-        "answer": "The dynamic_import function in Scrapegraph-ai does not return anything."
+        "prompt": "What does the dynamic_import function in scrapegraphai return?",
+        "answer": "The dynamic_import function in scrapegraphai does not return anything."
     }
 ]

@@ -1,39 +1,39 @@
 [
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the SearchInternetNode node?",
-        "answer": "The purpose of the SearchInternetNode node in Scrapegraph-ai is to refactor the user's query into a search query and fetch the search result URLs."
+        "prompt": "In scrapegraphai, what is the purpose of the SearchInternetNode node?",
+        "answer": "The purpose of the SearchInternetNode node in scrapegraphai is to refactor the user's query into a search query and fetch the search result URLs."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the FetchNode node?",
-        "answer": "The purpose of the FetchNode node in Scrapegraph-ai is to fetch input content from a given URL or file path."
+        "prompt": "In scrapegraphai, what is the purpose of the FetchNode node?",
+        "answer": "The purpose of the FetchNode node in scrapegraphai is to fetch input content from a given URL or file path."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the GetProbableTagsNode node?",
-        "answer": "The purpose of the GetProbableTagsNode node in Scrapegraph-ai is to identify probable HTML tags from a document based on a user's question."
+        "prompt": "In scrapegraphai, what is the purpose of the GetProbableTagsNode node?",
+        "answer": "The purpose of the GetProbableTagsNode node in scrapegraphai is to identify probable HTML tags from a document based on a user's question."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the ParseNode node?",
-        "answer": "The purpose of the ParseNode node in Scrapegraph-ai is to parse document content to extract specific data."
+        "prompt": "In scrapegraphai, what is the purpose of the ParseNode node?",
+        "answer": "The purpose of the ParseNode node in scrapegraphai is to parse document content to extract specific data."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the RAGNode node?",
-        "answer": "The purpose of the RAGNode node in Scrapegraph-ai is to reduce the amount of text to be processed by identifying and retrieving the most relevant chunks of text based on the user's query."
+        "prompt": "In scrapegraphai, what is the purpose of the RAGNode node?",
+        "answer": "The purpose of the RAGNode node in scrapegraphai is to reduce the amount of text to be processed by identifying and retrieving the most relevant chunks of text based on the user's query."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the GenerateAnswerNode node?",
-        "answer": "The purpose of the GenerateAnswerNode node in Scrapegraph-ai is to generate an answer based on the user's input and parsed document."
+        "prompt": "In scrapegraphai, what is the purpose of the GenerateAnswerNode node?",
+        "answer": "The purpose of the GenerateAnswerNode node in scrapegraphai is to generate an answer based on the user's input and parsed document."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the ConditionalNode node?",
-        "answer": "The purpose of the ConditionalNode node in Scrapegraph-ai is to decide the next node to execute based on a condition."
+        "prompt": "In scrapegraphai, what is the purpose of the ConditionalNode node?",
+        "answer": "The purpose of the ConditionalNode node in scrapegraphai is to decide the next node to execute based on a condition."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the ImageToTextNode node?",
-        "answer": "The purpose of the ImageToTextNode node in Scrapegraph-ai is to convert image content to text by extracting visual information and interpreting it."
+        "prompt": "In scrapegraphai, what is the purpose of the ImageToTextNode node?",
+        "answer": "The purpose of the ImageToTextNode node in scrapegraphai is to convert image content to text by extracting visual information and interpreting it."
     },
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the TextToSpeechNode node?",
-        "answer": "The purpose of the TextToSpeechNode node in Scrapegraph-ai is to convert text into spoken words, allowing for auditory representation of the text."
+        "prompt": "In scrapegraphai, what is the purpose of the TextToSpeechNode node?",
+        "answer": "The purpose of the TextToSpeechNode node in scrapegraphai is to convert text into spoken words, allowing for auditory representation of the text."
     },
     {
         "prompt": "Show me the implementation of the nodes_metadata module in ScrapeGraphAI.",

@@ -1,19 +1,19 @@
 [
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the prettify_exec_info function?",
-        "answer": "The purpose of the prettify_exec_info function in Scrapegraph-ai is to transform the execution information of a graph into a DataFrame for enhanced visualization and analysis."
+        "prompt": "In scrapegraphai, what is the purpose of the prettify_exec_info function?",
+        "answer": "The purpose of the prettify_exec_info function in scrapegraphai is to transform the execution information of a graph into a DataFrame for enhanced visualization and analysis."
     },
     {
-        "prompt": "What is the argument of the prettify_exec_info function in Scrapegraph-ai?",
-        "answer": "The prettify_exec_info function in Scrapegraph-ai takes one argument: `complete_result`, which is the complete execution information of the graph."
+        "prompt": "What is the argument of the prettify_exec_info function in scrapegraphai?",
+        "answer": "The prettify_exec_info function in scrapegraphai takes one argument: `complete_result`, which is the complete execution information of the graph."
     },
     {
-        "prompt": "What does the prettify_exec_info function in Scrapegraph-ai do with the complete_result argument?",
-        "answer": "The prettify_exec_info function in Scrapegraph-ai creates a `DataFrame` from the `complete_result` argument using the pandas library."
+        "prompt": "What does the prettify_exec_info function in scrapegraphai do with the complete_result argument?",
+        "answer": "The prettify_exec_info function in scrapegraphai creates a `DataFrame` from the `complete_result` argument using the pandas library."
     },
     {
-        "prompt": "What does the prettify_exec_info function in Scrapegraph-ai return?",
-        "answer": "The prettify_exec_info function in Scrapegraph-ai returns a `DataFrame` that organizes the execution information for better readability and analysis."
+        "prompt": "What does the prettify_exec_info function in scrapegraphai return?",
+        "answer": "The prettify_exec_info function in scrapegraphai returns a `DataFrame` that organizes the execution information for better readability and analysis."
     }
 ]
   

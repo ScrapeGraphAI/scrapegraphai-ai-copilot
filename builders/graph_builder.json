@@ -13,11 +13,11 @@
     },
     {
       "prompt": "In scrapegraph ai, what is the purpose of the `build_graph` method in the GraphBuilder class?",
-      "answer": "The `build_graph` method in the `GraphBuilder` class of ScrapeGraph-ai executes the graph creation process based on the user prompt and returns the graph configuration as a JSON representation."
+      "answer": "The `build_graph` method in the `GraphBuilder` class of scrapegraphai executes the graph creation process based on the user prompt and returns the graph configuration as a JSON representation."
     },
     {
       "prompt": "In scrapegraph ai, what is the purpose of the `convert_json_to_graphviz` method in the GraphBuilder class?",
-      "answer": "The `convert_json_to_graphviz` method in the `GraphBuilder` class of scrapegraph-ai converts a JSON graph configuration to a Graphviz object for visualization."
+      "answer": "The `convert_json_to_graphviz` method in the `GraphBuilder` class of scrapegraphai converts a JSON graph configuration to a Graphviz object for visualization."
     },
     {
       "prompt": "Show me the implementation of the GraphBuilder class in scrapegraph ai.",

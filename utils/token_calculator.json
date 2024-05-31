@@ -1,26 +1,26 @@
 [
     {
-        "prompt": "In Scrapegraph-ai, what is the purpose of the truncate_text_tokens function?",
-        "answer": "The purpose of the `truncate_text_tokens` function in Scrapegraph-ai is to truncate text into chunks that are small enough to be processed by specified llm models."
+        "prompt": "In scrapegraphai, what is the purpose of the truncate_text_tokens function?",
+        "answer": "The purpose of the `truncate_text_tokens` function in scrapegraphai is to truncate text into chunks that are small enough to be processed by specified llm models."
     },
     {
-        "prompt": "What are the arguments of the truncate_text_tokens function in Scrapegraph-ai?",
-        "answer": "The `truncate_text_tokens` function in Scrapegraph-ai takes three arguments: `text`, `model`, and `encoding_name`."
+        "prompt": "What are the arguments of the truncate_text_tokens function in scrapegraphai?",
+        "answer": "The `truncate_text_tokens` function in scrapegraphai takes three arguments: `text`, `model`, and `encoding_name`."
     },
     {
-        "prompt": "What does the truncate_text_tokens function in Scrapegraph-ai do with the `encoding_name` argument?",
-        "answer": "The `truncate_text_tokens` function in Scrapegraph-ai uses the `tiktoken.get_encoding` function to get the encoding strategy specified by the `encoding_name` argument."
+        "prompt": "What does the truncate_text_tokens function in scrapegraphai do with the `encoding_name` argument?",
+        "answer": "The `truncate_text_tokens` function in scrapegraphai uses the `tiktoken.get_encoding` function to get the encoding strategy specified by the `encoding_name` argument."
     },
     {
-        "prompt": "What does the truncate_text_tokens function in Scrapegraph-ai do with the `model` argument?",
-        "answer": "The `truncate_text_tokens` function in Scrapegraph-ai uses the `models_tokens` dictionary to get the maximum token limit for the model specified by the `model` argument."
+        "prompt": "What does the truncate_text_tokens function in scrapegraphai do with the `model` argument?",
+        "answer": "The `truncate_text_tokens` function in scrapegraphai uses the `models_tokens` dictionary to get the maximum token limit for the model specified by the `model` argument."
     },
     {
-        "prompt": "What does the truncate_text_tokens function in Scrapegraph-ai do with the `text` argument?",
-        "answer": "The `truncate_text_tokens` function in Scrapegraph-ai encodes the `text` argument using the specified encoding strategy, and then truncates the encoded text into chunks that are within the token limit of the specified model. The function then decodes the truncated chunks and returns them as a list of strings."
+        "prompt": "What does the truncate_text_tokens function in scrapegraphai do with the `text` argument?",
+        "answer": "The `truncate_text_tokens` function in scrapegraphai encodes the `text` argument using the specified encoding strategy, and then truncates the encoded text into chunks that are within the token limit of the specified model. The function then decodes the truncated chunks and returns them as a list of strings."
     },
     {
-        "prompt": "What does the truncate_text_tokens function in Scrapegraph-ai return?",
-        "answer": "The `truncate_text_tokens` function in Scrapegraph-ai returns a list of text chunks, each within the token limit of the specified model."
+        "prompt": "What does the truncate_text_tokens function in scrapegraphai return?",
+        "answer": "The `truncate_text_tokens` function in scrapegraphai returns a list of text chunks, each within the token limit of the specified model."
     }
 ] 
