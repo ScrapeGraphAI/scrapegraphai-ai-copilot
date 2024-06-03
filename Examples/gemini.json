@@ -42,5 +42,20 @@
     {
         "prompt": "How to create a script in Scrapegraphai for creating script in gemini?",
         "answer": "Basic example of scraping pipeline using ScriptCreatorGraph\n\nimport os\nfrom dotenv import load_dotenv\nfrom scrapegraphai.graphs import ScriptCreatorGraph\nfrom scrapegraphai.utils import prettify_exec_info\n\nload_dotenv()\n\n# ************************************************\n# Define the configuration for the graph\n# ************************************************\n\ngemini_key = os.getenv(\"GOOGLE_APIKEY\")\n\ngraph_config = {\n    \"llm\": {\n        \"api_key\": gemini_key,\n        \"model\": \"gemini-pro\"\n    },\n    \"library\": \"beautifulsoup\"\n}\n\n# ************************************************\n# Create the ScriptCreatorGraph instance and run it\n# ************************************************\n\nsmart_scraper_graph = ScriptCreatorGraph(\n    prompt=\"List me all the news with their description.\",\n    # also accepts a string with the already downloaded HTML code\n    source=\"https://perinim.github.io/projects\",\n    config=graph_config\n)\n\nresult = smart_scraper_graph.run()\nprint(result)\n\n# ************************************************\n# Get graph execution info\n# ************************************************\n\ngraph_exec_info = smart_scraper_graph.get_execution_info()\nprint(prettify_exec_info(graph_exec_info))"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLS in haiku (anthopic)? ",
+        "answer": ""
+
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in haiku (anthopic)? ",
+        "answer": ""
+
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in haiku (anthopic)? ",
+        "answer": ""
+
     }
 ]
