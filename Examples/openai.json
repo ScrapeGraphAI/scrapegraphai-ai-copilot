@@ -62,5 +62,21 @@
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in openai (anthopic)?",
         "answer": ""
-    }
+    },
+      {
+        "prompt": "How to create a script in Scrapegraphai for generating an audio file from the scraped content using openai as a provider?",
+        "answer": ""
+   },
+   {
+        "prompt": "How to create a script in Scrapegraphai for scraping a website extracting textual content and describing images given a user prompt and a URL using openai as a provider?",
+        "answer": ""
+   },
+   {
+        "prompt": "How to create a script in Scrapegraphai for scraping a website extracting textual content and describing images given a user prompt and a list of URLs using openai as a provider?",
+        "answer": ""
+   },
+   {
+        "prompt": "How to create a script in Scrapegraphai for scraping a website extracting textual content and describing images given only a user prompt and making a search on the internet using openai as a provider?",
+        "answer": ""
+   }
 ]
