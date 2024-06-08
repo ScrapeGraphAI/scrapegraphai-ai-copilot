@@ -41,6 +41,14 @@
         "answer":""
     },
     {
+          "prompt": "How to create a script in Scrapegraphai for creating script in ernie?",
+          "answer": ""
+     },
+     {
+        "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in ernie using beautifoulsoup?",
+        "answer": ""
+    },
+    {
         "prompt": "How to create a script in Scrapegraphai a custom graph using ernie as a provider?",
         "answer":""
     },

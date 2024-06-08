@@ -23,7 +23,15 @@
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using azure as a provider?",
         "answer": ""
     },
-      {
+    {
+          "prompt": "How to create a script in Scrapegraphai for creating script in azure?",
+          "answer": ""
+     },
+     {
+        "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in azure using beautifoulsoup?",
+        "answer": ""
+    },
+    {
         "prompt": "How to create a script in Scrapegraphai for scraping a JSON given a prompt using azure as a provider?",
         "answer": ""
     },

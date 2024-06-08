@@ -28,6 +28,14 @@
         "answer": ""
     },
     {
+          "prompt": "How to create a script in Scrapegraphai for creating script in groq?",
+          "answer": ""
+     },
+     {
+        "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in groq using beautifoulsoup?",
+        "answer": ""
+    },
+    {
         "prompt": "How to create a script in Scrapegraphai for scraping a JSON given a prompt using groq as a provider?",
         "answer": ""
     },

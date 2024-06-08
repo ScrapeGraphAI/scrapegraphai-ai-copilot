@@ -20,6 +20,14 @@
         "answer": ""
     },
     {
+          "prompt": "How to create a script in Scrapegraphai for creating script in deepseek?",
+          "answer": ""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in deepseek using beautifoulsoup?",
+        "answer": ""
+    },
+    {
         "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using deepseek as a provider?",
         "answer": ""
     },
