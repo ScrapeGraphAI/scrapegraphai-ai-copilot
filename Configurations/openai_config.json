@@ -1,86 +1,91 @@
 [
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt using openai as a provider?",
-        "answer": ""
+        "filename":""
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using openai as a provider?",
-        "answer": ""
+        "filename":""
    },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and seaching on internet using openai as a provider?",
-        "answer": ""
+        "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using openai as a provider and given a schema?",
-        "answer": ""
+        "filename":""
     },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple websites given a prompt using openai as a provider?",
-        "answer": ""
+        "filename":""
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using openai as a provider?",
-        "answer": ""
+        "filename":""
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a JSON given a prompt using openai as a provider?",
-        "answer": ""
+        "filename":""
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using openai as a provider?",
-        "answer": ""
+        "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping plain text given a prompt using openai as a provider?",
-        "answer": ""
+        "filename":""
     },
+    
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using openai as a provider?",
-        "answer": ""
+        "filename":""
+    },
+     {
+        "prompt": "How to create a script in Scrapegraphai for scraping a single JSON in haiku (anthropic)?",
+        "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai a custom graph using openai as a provider?",
-        "answer": ""
+        "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and seaching on internet using openai as a provider and using the omniscraper?",
-        "answer": ""
+        "filename":""
     },
     {
           "prompt": "How to create a script in Scrapegraphai for creating script in openai?",
-          "answer": ""
+          "filename":""
      },
      {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in haiku (anthopic) using beautifoulsoup?",
-        "answer": ""
+        "filename":""
     },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLS in openai?",
-        "answer": ""
+        "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in openai ?",
-        "answer": ""
+        "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in openai (anthopic)?",
-        "answer": ""
+        "filename":""
     },
       {
         "prompt": "How to create a script in Scrapegraphai for generating an audio file from the scraped content using openai as a provider?",
-        "answer": ""
+        "filename":""
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a website extracting textual content and describing images given a user prompt and a URL using openai as a provider?",
-        "answer": ""
+        "filename":""
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a website extracting textual content and describing images given a user prompt and a list of URLs using openai as a provider?",
-        "answer": ""
+        "filename":""
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a website extracting textual content and describing images given only a user prompt and making a search on the internet using openai as a provider?",
-        "answer": ""
+        "filename":""
    }
 ]

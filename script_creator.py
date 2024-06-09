@@ -2,7 +2,7 @@ import os
 import json
 
 # Load the JSON file
-with open('/Users/marcovinciguerra/github/scrapegraphai-ai-copilot/Examples/anthropic_config.json', 'r') as f:
+with open('/Users/marcovinciguerra/github/scrapegraphai-ai-copilot/Configurations/anthropic_config.json', 'r') as f:
     data = json.load(f)
 
 # Loop through each object in the list
@@ -13,8 +13,12 @@ for obj in data:
 
     # Open the corresponding script file
     script_file_path = '/Users/marcovinciguerra/github/Scrapegraph-ai/examples/anthropic/' + obj['filename']
-    with open(script_file_path, 'r') as f:
-        script_content = f.read()
+    try:
+        with open(script_file_path, 'r') as f:
+            script_content = f.read()
+    except FileNotFoundError:
+        print(f"File not found: {script_file_path}. Skipping.")
+        continue
 
     # Add the script content as the "answer" property in the JSON object
     obj['answer'] = script_content

@@ -1,11 +1,11 @@
 [
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt using gemini as a provider?",
-       "filename":""
+       "filename":"smart_scraper_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using gemini as a provider?",
-       "filename":""
+       "filename":"smart_scraper_schema_gemini.py"
     },
       {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using gemini as a provider?",
@@ -13,7 +13,7 @@
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using anthropic as a provider and given a schema?",
-       "filename":""
+       "filename":"search_graph_schema_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple websites given a prompt using gemini as a provider?",
@@ -21,31 +21,27 @@
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using gemini as a provider?",
-       "filename":""
+       "filename":"xml_scraper_gemini.py"
     },
         {
         "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using gemini as a provider?",
-       "filename":""
+       "filename":"csv_scraper_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping plain text given a prompt using gemini as a provider?",
-       "filename":""
+       "filename":"scrape_plain_text_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using gemini as a provider?",
-       "filename":""
+       "filename":"pdf_scraper_graph_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai a custom graph using gemini as a provider?",
-       "filename":""
-    },
-    {
-        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using gemini as a provider and using the omniscraper?",
-       "filename":""
+       "filename":"custom_graph_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating script in gemini using beautifoulsoup?",
-       "filename":""
+       "filename":"script_generator_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in gemini using beautifoulsoup?",
@@ -53,14 +49,18 @@
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in gemini?",
-       "filename":""
+       "filename":"xml_scraper_graph_multi_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in gemini?",
-       "filename":""
+       "filename":"csv_scraper_graph_multi_gemini.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a single JSON in gemini?",
+       "filename":"json_scraper_multi_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in gemini?",
-       "filename":""
+       "filename":"json_scraper_multi_gemini.py"
     }
 ]

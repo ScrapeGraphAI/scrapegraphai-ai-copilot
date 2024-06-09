@@ -40,10 +40,6 @@
        "filename":"custom_graph_haiku.py"
     },
     {
-        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using haiku (anthropic) as a provider and using the omniscraper?",
-       "filename":""
-    },
-    {
         "prompt": "How to create a script in Scrapegraphai for creating script in haiku (anthropic) using beautifoulsoup?",
        "filename":"script_generator_haiku.py"
     },
@@ -58,6 +54,10 @@
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in haiku (anthropic)?",
        "filename":"csv_scraper_graph_multi_haiku.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a single JSON in haiku (anthropic)?",
+       "filename":"json_scraper_multi_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in haiku (anthropic)?",
