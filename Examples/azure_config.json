@@ -1,0 +1,66 @@
+[
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt using azure as a provider?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using azure as a provider?",
+       "filename":""
+    },
+      {
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using azure as a provider?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using anthropic as a provider and given a schema?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple websites given a prompt using azure as a provider?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using azure as a provider?",
+       "filename":""
+    },
+        {
+        "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using azure as a provider?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping plain text given a prompt using azure as a provider?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using azure as a provider?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai a custom graph using azure as a provider?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using azure as a provider and using the omniscraper?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for creating script in azure using beautifoulsoup?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in azure using beautifoulsoup?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in azure?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in azure?",
+       "filename":""
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in azure?",
+       "filename":""
+    }
+]

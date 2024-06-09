@@ -1,66 +1,66 @@
 [
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt using haiku (anthropic) as a provider?",
-        "answer": ""
+       "filename":"smart_scraper_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using haiku (anthropic) as a provider?",
-        "answer": ""
+       "filename":"smart_scraper_schema_haiku.py"
     },
       {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using haiku (anthropic) as a provider?",
-        "answer": ""
+       "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using anthropic as a provider and given a schema?",
-        "answer": ""
+       "filename":"search_graph_schema_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple websites given a prompt using haiku (anthropic) as a provider?",
-        "answer": ""
+       "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using haiku (anthropic) as a provider?",
-        "answer": ""
+       "filename":"xml_scraper_haiku.py"
     },
         {
         "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using haiku (anthropic) as a provider?",
-        "answer": ""
+       "filename":"csv_scraper_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping plain text given a prompt using haiku (anthropic) as a provider?",
-        "answer": ""
+       "filename":"scrape_plain_text_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using haiku (anthropic) as a provider?",
-        "answer": ""
+       "filename":"pdf_scraper_graph_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai a custom graph using haiku (anthropic) as a provider?",
-        "answer": ""
+       "filename":"custom_graph_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using haiku (anthropic) as a provider and using the omniscraper?",
-        "answer": ""
+       "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating script in haiku (anthropic) using beautifoulsoup?",
-        "answer": ""
+       "filename":"script_generator_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in haiku (anthropic) using beautifoulsoup?",
-        "answer": ""
+       "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in haiku (anthropic)?",
-        "answer": ""
+       "filename":"xml_scraper_graph_multi_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in haiku (anthropic)?",
-        "answer": ""
+       "filename":"csv_scraper_graph_multi_haiku.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in haiku (anthropic)?",
-        "answer": ""
+       "filename":"json_scraper_multi_haiku.py"
     }
 ]
