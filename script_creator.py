@@ -20,6 +20,7 @@ for filename in os.listdir(config_dir):
 
     # Full path to the configuration file
     config_file_path = os.path.join(config_dir, filename)
+    print(filename)
 
     # Load the JSON file
     with open(config_file_path, 'r') as f:
@@ -33,10 +34,8 @@ for filename in os.listdir(config_dir):
         # Skip if there's no script name in the JSON
         if not script_name:
             continue
-
-        # Determine the script folder based on the filename
-        if script_name.lower() == "ollama":
-            script_folder = ollama_script_dir  # Use the Ollama script directory
+        if filename == "local_models_config.json":
+            script_folder = ollama_script_dir
         else:
             script_folder = os.path.join(script_base_dir, os.path.splitext(filename)[0].split('_')[0])
 
@@ -62,3 +61,33 @@ for filename in os.listdir(config_dir):
     print(f"Updated configuration file saved to: {new_config_file_path}")
 
 print("Finished processing and saving configuration files to the new directory.")
+
+# Adding the code to remove the "filename" key from JSON files in the "Examples" folder
+
+# Directory containing the JSON files
+examples_dir = '/Users/marcovinciguerra/github/scrapegraphai-ai-copilot/Examples'
+
+# Function to remove the "filename" key from a dictionary
+def remove_filename_key(data):
+    for item in data:
+        if 'filename' in item:
+            del item['filename']
+    return data
+
+# Iterate over all files in the directory
+for filename in os.listdir(examples_dir):
+    if filename.endswith('.json'):
+        file_path = os.path.join(examples_dir, filename)
+        
+        # Open the file and load the JSON content
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+        
+        # Remove the "filename" key from each object in the array
+        data = remove_filename_key(data)
+        
+        # Save the modified file
+        with open(file_path, 'w', encoding='utf-8') as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)
+
+print("Process of removing 'filename' keys completed.")

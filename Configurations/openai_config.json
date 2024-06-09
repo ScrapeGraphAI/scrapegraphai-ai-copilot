@@ -70,14 +70,14 @@
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a website extracting textual content and describing images given a user prompt and a URL using openai as a provider?",
-        "filename":""
+        "filename":"omni_scraper_openai.py"
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a website extracting textual content and describing images given a user prompt and a list of URLs using openai as a provider?",
-        "filename":""
+        "filename":"omni_scraper_openai.py"
    },
    {
         "prompt": "How to create a script in Scrapegraphai for scraping a website extracting textual content and describing images given only a user prompt and making a search on the internet using openai as a provider?",
-        "filename":""
+        "filename":"omni_search_graph_openai.py"
    }
 ]
