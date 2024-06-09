@@ -1,62 +1,62 @@
 [
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt using hugging face as a provider?",
-       "filename":"smart_scraper_huggingfacehub.py"
+        "filename": "smart_scraper_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using hugging face as a provider?",
-       "filename":"smart_scraper_schema_huggingfacehub.py"
+        "filename": "smart_scraper_schema_huggingfacehub.py"
     },
-     {
+    {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using hugging face as a provider?",
-       "filename":"search_graph_huggingfacehub.py"
+        "filename": "search_graph_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using hugging face as a provider and given a schema?",
-       "filename":"search_graph_schema_huggingfacehub.py"
+        "filename": "search_graph_schema_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using hugging face as a provider?",
-       "filename":"xml_scraper_huggingfacehub.py"
+        "filename": "xml_scraper_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using hugging face as a provider?",
-       "filename":"csv_scraper_huggingfacehub.py"
+        "filename": "csv_scraper_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping plain text given a prompt using hugging face as a provider?",
-       "filename":"scrape_plain_text_huggingfacehub.py"
+        "filename": "scrape_plain_text_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using hugging face as a provider?",
-       "filename":"pdf_scraper_graph_huggingfacehub.py"
+        "filename": "pdf_scraper_graph_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai a custom graph using hugging face as a provider?",
-       "filename":"custom_graph_huggingfacehub.py"
+        "filename": "custom_graph_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating script in hugging face using beautifoulsoup?",
-       "filename":"script_generator_huggingfacehub.py"
+        "filename": "script_generator_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in hugging face using beautifoulsoup?",
-       "filename": "script_generator_multi_huggingfacehub.py"
+        "filename": "script_generator_multi_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in hugging face?",
-       "filename":"xml_scraper_graph_multi_huggingfacehub.py"
+        "filename": "xml_scraper_graph_multi_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in hugging face?",
-       "filename":"csv_scraper_graph_multi_huggingfacehub.py"
+        "filename": "csv_scraper_graph_multi_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a single JSON in hugging face?",
-       "filename":"json_scraper_multi_huggingfacehub.py"
+        "filename": "json_scraper_multi_huggingfacehub.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in hugging face?",
-       "filename":"json_scraper_multi_huggingfacehub.py"
+        "filename": "json_scraper_multi_huggingfacehub.py"
     }
 ]

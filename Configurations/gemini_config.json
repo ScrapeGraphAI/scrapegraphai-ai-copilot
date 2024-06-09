@@ -7,17 +7,13 @@
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using gemini as a provider?",
        "filename":"smart_scraper_schema_gemini.py"
     },
-      {
+    {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using gemini as a provider?",
-       "filename":""
+       "filename":"search_graph_gemini.py"
     },
     {
-        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using anthropic as a provider and given a schema?",
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using gemini as a provider and given a schema?",
        "filename":"search_graph_schema_gemini.py"
-    },
-    {
-        "prompt": "How to create a script in Scrapegraphai for scraping multiple websites given a prompt using gemini as a provider?",
-       "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using gemini as a provider?",
@@ -43,9 +39,9 @@
         "prompt": "How to create a script in Scrapegraphai for creating script in gemini using beautifoulsoup?",
        "filename":"script_generator_gemini.py"
     },
-    {
+     {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in gemini using beautifoulsoup?",
-       "filename":""
+       "filename": "script_generator_multi_gemini.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in gemini?",

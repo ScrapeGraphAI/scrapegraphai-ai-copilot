@@ -7,17 +7,13 @@
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using deepseek as a provider?",
        "filename":"smart_scraper_schema_deepseek.py"
     },
-      {
+    {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using deepseek as a provider?",
-       "filename":""
+       "filename":"search_graph_deepseek.py"
     },
     {
-        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using anthropic as a provider and given a schema?",
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using deepseek as a provider and given a schema?",
        "filename":"search_graph_schema_deepseek.py"
-    },
-    {
-        "prompt": "How to create a script in Scrapegraphai for scraping multiple websites given a prompt using deepseek as a provider?",
-       "filename":""
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using deepseek as a provider?",
@@ -43,9 +39,9 @@
         "prompt": "How to create a script in Scrapegraphai for creating script in deepseek using beautifoulsoup?",
        "filename":"script_generator_deepseek.py"
     },
-    {
+     {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in deepseek using beautifoulsoup?",
-       "filename":""
+       "filename": "script_generator_multi_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in deepseek?",
