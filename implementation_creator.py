@@ -10,7 +10,7 @@ def extract_code(file_path):
 
     # Create a dictionary for the code snippet
     code_snippet = {
-        "prompt": f"how is implemented {file_name}",
+        "prompt": f"how is implemented {file_name} in Scrapegraphai?",
         "answer": code
     }
 

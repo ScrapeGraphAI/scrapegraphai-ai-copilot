@@ -1,6 +1,6 @@
 [
     {
-        "prompt": "how is implemented prettify_exec_info",
+        "prompt": "how is implemented prettify_exec_info in Scrapegraphai?",
         "answer": "\"\"\"\nPrettify the execution information of the graph.\n\"\"\"\n\nimport pandas as pd\n\n\ndef prettify_exec_info(complete_result: list[dict]) -> pd.DataFrame:\n    \"\"\"\n    Transforms the execution information of a graph into a DataFrame for enhanced visualization.\n\n    Args:\n        complete_result (list[dict]): The complete execution information of the graph.\n\n    Returns:\n        pd.DataFrame: A DataFrame that organizes the execution information for better readability and analysis.\n\n    Example:\n        >>> prettify_exec_info([{'node': 'A', 'status': 'success'}, {'node': 'B', 'status': 'failure'}])\n        DataFrame with columns 'node' and 'status' showing execution results for each node.\n    \"\"\"\n\n    df_nodes = pd.DataFrame(complete_result)\n\n    return df_nodes\n"
     }
 ]

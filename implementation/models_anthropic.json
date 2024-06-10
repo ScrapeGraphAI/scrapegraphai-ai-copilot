@@ -1,6 +1,6 @@
 [
     {
-        "prompt": "how is implemented anthropic",
+        "prompt": "how is implemented anthropic in Scrapegraphai?",
         "answer": "\"\"\" \nAnthropic Module\n\"\"\"\nfrom langchain_anthropic import ChatAnthropic\n\n\nclass Anthropic(ChatAnthropic):\n    \"\"\"\n    A wrapper for the ChatAnthropic class that provides default configuration\n    and could be extended with additional methods if needed.\n\n    Args:\n        llm_config (dict): Configuration parameters for the language model.\n    \"\"\"\n\n    def __init__(self, llm_config: dict):\n        super().__init__(**llm_config)"
     }
 ]
