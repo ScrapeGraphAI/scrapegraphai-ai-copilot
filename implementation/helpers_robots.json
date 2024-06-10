@@ -1,0 +1,6 @@
+[
+    {
+        "prompt": "how is implemented robots",
+        "answer": "\"\"\" \nModule for mapping the models in ai agents\n\"\"\"\n\nrobots_dictionary = {\n    \"gpt-3.5-turbo\": [\"GPTBot\", \"ChatGPT-user\"],\n    \"gpt-4-turbo\": [\"GPTBot\", \"ChatGPT-user\"],\n    \"claude\": [\"Claude-Web\", \"ClaudeBot\"],\n    \"perplexity\": \"PerplexityBot\",\n    \"cohere\": \"cohere-ai\",\n    \"anthropic\": \"anthropic-ai\"\n}\n"
+    }
+]
