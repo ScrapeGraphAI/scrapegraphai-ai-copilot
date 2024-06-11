@@ -13,7 +13,7 @@ def fuse_json_files(folders, output_file):
         for file_name in os.listdir(folder):
 
             # Check if the file is a JSON file
-            if file_name.endswith('.json'):
+            if file_name.endswith('.json') and not file_name.endswith('_config.json'):
 
                 # Get the full path of the file
                 file_path = os.path.join(folder, file_name)
