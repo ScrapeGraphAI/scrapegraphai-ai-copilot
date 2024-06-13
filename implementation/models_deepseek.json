@@ -1,6 +1,6 @@
 [
     {
-        "prompt": "how is implemented deepseek in Scrapegraphai?",
+        "prompt": "how is deepseek implemented in Scrapegraphai?",
         "answer": "\"\"\" \nDeepSeek Module\n\"\"\"\nfrom langchain_openai import ChatOpenAI\n\n\nclass DeepSeek(ChatOpenAI):\n    \"\"\"\n    A wrapper for the ChatOpenAI class (DeepSeek uses an OpenAI-like API) that\n    provides default configuration and could be extended with additional methods\n    if needed.\n\n    Args:\n        llm_config (dict): Configuration parameters for the language model.\n    \"\"\"\n\n    def __init__(self, llm_config: dict):\n        super().__init__(**llm_config)\n"
     }
 ]

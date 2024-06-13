@@ -1,6 +1,6 @@
 [
     {
-        "prompt": "how is implemented openai_tts in Scrapegraphai?",
+        "prompt": "how is openai_tts implemented in Scrapegraphai?",
         "answer": "\"\"\"\nOpenAITextToSpeech Module\n\"\"\"\n\nfrom openai import OpenAI\n\n\nclass OpenAITextToSpeech:\n    \"\"\"\n    Implements a text-to-speech model using the OpenAI API.\n\n    Attributes:\n        client (OpenAI): The OpenAI client used to interact with the API.\n        model (str): The model to use for text-to-speech conversion.\n        voice (str): The voice model to use for generating speech.\n\n    Args:\n        tts_config (dict): Configuration parameters for the text-to-speech model.\n    \"\"\"\n\n    def __init__(self, tts_config: dict):\n\n        # convert model_name to model\n        self.client = OpenAI(api_key=tts_config.get(\"api_key\"), \n                             base_url=tts_config.get(\"base_url\", None))\n        self.model = tts_config.get(\"model\", \"tts-1\")\n        self.voice = tts_config.get(\"voice\", \"alloy\")\n\n    def run(self, text: str) -> bytes:\n        \"\"\"\n        Converts the provided text to speech and returns the bytes of the generated speech.\n\n        Args:\n            text (str): The text to convert to speech.\n\n        Returns:\n            bytes: The bytes of the generated speech audio.\n        \"\"\"\n        response = self.client.audio.speech.create(\n            model=self.model,\n            voice=self.voice,\n            input=text\n        )\n\n        return response.content\n"
     }
 ]
