@@ -19,7 +19,7 @@
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using ernie as a provider?",
        "filename":"xml_scraper_ernie.py"
     },
-        {
+    {
         "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using ernie as a provider?",
        "filename":"csv_scraper_ernie.py"
     },
@@ -29,34 +29,34 @@
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using ernie as a provider?",
-       "filename":"pdf_scraper_graph_ernie.py"
+        "filename":"pdf_scraper_graph_ernie.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai a custom graph using ernie as a provider?",
-       "filename":"custom_graph_ernie.py"
+        "filename":"custom_graph_ernie.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating script in ernie using beautifoulsoup?",
-       "filename":"script_generator_ernie.py"
+        "filename":"script_generator_ernie.py"
     },
-     {
+    {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in ernie using beautifoulsoup?",
-       "filename": "script_generator_multi_ernie.py"
+        "filename": "script_generator_multi_ernie.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in ernie?",
-       "filename":"xml_scraper_graph_multi_ernie.py"
+        "filename":"xml_scraper_graph_multi_ernie.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in ernie?",
-       "filename":"csv_scraper_graph_multi_ernie.py"
+        "filename":"csv_scraper_graph_multi_ernie.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a single JSON in ernie?",
-       "filename":"json_scraper_multi_ernie.py"
+        "filename":"json_scraper_multi_ernie.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in ernie?",
-       "filename":"json_scraper_multi_ernie.py"
+        "filename":"json_scraper_multi_ernie.py"
     }
 ]

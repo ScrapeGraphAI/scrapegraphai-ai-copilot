@@ -1,62 +1,62 @@
 [
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt using groq as a provider?",
-       "filename":"smart_scraper_groq.py"
+        "filename":"smart_scraper_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using groq as a provider?",
-       "filename":"smart_scraper_schema_groq.py"
+        "filename":"smart_scraper_schema_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using groq as a provider?",
-       "filename":"search_graph_groq.py"
+        "filename":"search_graph_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using groq as a provider and given a schema?",
-       "filename":"search_graph_schema_groq.py"
+        "filename":"search_graph_schema_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using groq as a provider?",
-       "filename":"xml_scraper_groq.py"
+        "filename":"xml_scraper_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using groq as a provider?",
-       "filename":"csv_scraper_groq.py"
+        "filename":"csv_scraper_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping plain text given a prompt using groq as a provider?",
-       "filename":"scrape_plain_text_groq.py"
+        "filename":"scrape_plain_text_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using groq as a provider?",
-       "filename":"pdf_scraper_graph_groq.py"
+        "filename":"pdf_scraper_graph_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai a custom graph using groq as a provider?",
-       "filename":"custom_graph_groq.py"
+        "filename":"custom_graph_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating script in groq using beautifoulsoup?",
-       "filename":"script_generator_groq.py"
+        "filename":"script_generator_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in groq using beautifoulsoup?",
-       "filename": "script_generator_multi_groq.py"
+        "filename": "script_generator_multi_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in groq?",
-       "filename":"xml_scraper_graph_multi_groq.py"
+        "filename":"xml_scraper_graph_multi_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in groq?",
-       "filename":"csv_scraper_graph_multi_groq.py"
+        "filename":"csv_scraper_graph_multi_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a single JSON in groq?",
-       "filename":"json_scraper_multi_groq.py"
+        "filename":"json_scraper_multi_groq.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in groq?",
-       "filename":"json_scraper_multi_groq.py"
+        "filename":"json_scraper_multi_groq.py"
     }
 ]

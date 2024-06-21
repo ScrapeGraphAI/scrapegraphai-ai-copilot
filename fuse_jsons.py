@@ -27,7 +27,7 @@ def fuse_json_files(folders, output_file):
 
                     # Check if the object has the same schema as the first object
                     if objects and set(obj.keys()) != set(objects[0].keys()):
-                        raise ValueError('The objects in the JSON files do not have the same schema.')
+                        raise ValueError(f'The objects in the JSON file "{file_name}" do not have the same schema.')
 
                     # Add the object to the list
                     objects.append(obj)

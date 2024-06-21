@@ -1,62 +1,62 @@
 [
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt using deepseek as a provider?",
-       "filename":"smart_scraper_deepseek.py"
+        "filename":"smart_scraper_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using deepseek as a provider?",
-       "filename":"smart_scraper_schema_deepseek.py"
+        "filename":"smart_scraper_schema_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using deepseek as a provider?",
-       "filename":"search_graph_deepseek.py"
+        "filename":"search_graph_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using deepseek as a provider and given a schema?",
-       "filename":"search_graph_schema_deepseek.py"
+        "filename":"search_graph_schema_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using deepseek as a provider?",
-       "filename":"xml_scraper_deepseek.py"
+        "filename":"xml_scraper_deepseek.py"
     },
-        {
+    {
         "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using deepseek as a provider?",
-       "filename":"csv_scraper_deepseek.py"
+        "filename":"csv_scraper_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping plain text given a prompt using deepseek as a provider?",
-       "filename":"scrape_plain_text_deepseek.py"
+        "filename":"scrape_plain_text_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using deepseek as a provider?",
-       "filename":"pdf_scraper_graph_deepseek.py"
+        "filename":"pdf_scraper_graph_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai a custom graph using deepseek as a provider?",
-       "filename":"custom_graph_deepseek.py"
+        "filename":"custom_graph_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating script in deepseek using beautifoulsoup?",
-       "filename":"script_generator_deepseek.py"
+        "filename":"script_generator_deepseek.py"
     },
-     {
+    {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in deepseek using beautifoulsoup?",
-       "filename": "script_generator_multi_deepseek.py"
+        "filename": "script_generator_multi_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in deepseek?",
-       "filename":"xml_scraper_graph_multi_deepseek.py"
+        "filename":"xml_scraper_graph_multi_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in deepseek?",
-       "filename":"csv_scraper_graph_multi_deepseek.py"
+        "filename":"csv_scraper_graph_multi_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a single JSON in deepseek?",
-       "filename":"json_scraper_multi_deepseek.py"
+        "filename":"json_scraper_multi_deepseek.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in deepseek?",
-       "filename":"json_scraper_multi_deepseek.py"
+        "filename":"json_scraper_multi_deepseek.py"
     }
 ]

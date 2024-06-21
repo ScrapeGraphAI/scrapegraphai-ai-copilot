@@ -1,62 +1,62 @@
 [
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt using bedrock as a provider?",
-       "filename":"smart_scraper_bedrock.py"
+        "filename":"smart_scraper_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using bedrock as a provider?",
-       "filename":"smart_scraper_schema_bedrock.py"
+        "filename":"smart_scraper_schema_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using bedrock as a provider?",
-       "filename":"search_graph_bedrock.py"
+        "filename":"search_graph_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using bedrock as a provider and given a schema?",
-       "filename":"search_graph_schema_bedrock.py"
+        "filename":"search_graph_schema_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using bedrock as a provider?",
-       "filename":"xml_scraper_bedrock.py"
+        "filename":"xml_scraper_bedrock.py"
     },
-        {
+    {
         "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using bedrock as a provider?",
-       "filename":"csv_scraper_bedrock.py"
+        "filename":"csv_scraper_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping plain text given a prompt using bedrock as a provider?",
-       "filename":"scrape_plain_text_bedrock.py"
+        "filename":"scrape_plain_text_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using bedrock as a provider?",
-       "filename":"pdf_scraper_graph_bedrock.py"
+        "filename":"pdf_scraper_graph_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai a custom graph using bedrock as a provider?",
-       "filename":"custom_graph_bedrock.py"
+        "filename":"custom_graph_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for creating script in bedrock using beautifoulsoup?",
-       "filename":"script_generator_bedrock.py"
+        "filename":"script_generator_bedrock.py"
     },
      {
         "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in bedrock using beautifoulsoup?",
-       "filename": "script_generator_multi_bedrock.py"
+        "filename": "script_generator_multi_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in bedrock?",
-       "filename":"xml_scraper_graph_multi_bedrock.py"
+        "filename":"xml_scraper_graph_multi_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in bedrock?",
-       "filename":"csv_scraper_graph_multi_bedrock.py"
+        "filename":"csv_scraper_graph_multi_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping a single JSON in bedrock?",
-       "filename":"json_scraper_multi_bedrock.py"
+        "filename":"json_scraper_multi_bedrock.py"
     },
     {
         "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in bedrock?",
-       "filename":"json_scraper_multi_bedrock.py"
+        "filename":"json_scraper_multi_bedrock.py"
     }
 ]
