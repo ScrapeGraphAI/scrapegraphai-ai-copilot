@@ -1,0 +1,6 @@
+[
+    {
+        "prompt": "how is fireworks implemented in Scrapegraphai?",
+        "answer": "\"\"\"\nFireworks Module\n\"\"\"\nfrom langchain_fireworks import ChatFireworks\n\n\nclass Fireworks(ChatFireworks):\n  \"\"\"\n  Initializes the Fireworks class.\n\n  Args:\n      llm_config (dict): A dictionary containing configuration parameters for the LLM (required).\n          The specific keys and values will depend on the LLM implementation\n          used by the underlying `ChatFireworks` class. Consult its documentation\n          for details.\n\n  Raises:\n      ValueError: If required keys are missing from the llm_config dictionary.\n  \"\"\"\n\n  def __init__(self, llm_config: dict):\n      \"\"\"\n      Initializes the Fireworks class.\n\n      Args:\n          llm_config (dict): A dictionary containing configuration parameters for the LLM.\n              The specific keys and values will depend on the LLM implementation.\n\n      Raises:\n          ValueError: If required keys are missing from the llm_config dictionary.\n      \"\"\"\n\n      super().__init__(**llm_config)\n"
+    }
+]

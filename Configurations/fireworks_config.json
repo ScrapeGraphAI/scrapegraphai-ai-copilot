@@ -1,0 +1,62 @@
+[
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt using fireworks as a provider?",
+        "filename":"smart_scraper_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and a schema using fireworks as a provider?",
+        "filename":"smart_scraper_schema_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on internet using fireworks as a provider?",
+        "filename":"search_graph_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a specific website given a prompt and searching on the internet using fireworks as a provider and given a schema?",
+        "filename":"search_graph_schema_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping an XML given a prompt using fireworks as a provider?",
+        "filename":"xml_scraper_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a CSV given a prompt using fireworks as a provider?",
+        "filename":"csv_scraper_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping plain text given a prompt using fireworks as a provider?",
+        "filename":"scrape_plain_text_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a PDF given a prompt using fireworks as a provider?",
+        "filename":"pdf_scraper_graph_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai a custom graph using fireworks as a provider?",
+        "filename":"custom_graph_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for creating script in fireworks using beautifoulsoup?",
+        "filename":"script_generator_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for creating multiple scripts in fireworks using beautifoulsoup?",
+        "filename": "script_generator_multi_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple XMLs in fireworks?",
+        "filename":"xml_scraper_graph_multi_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple CSVs in fireworks?",
+        "filename":"csv_scraper_graph_multi_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping a single JSON in fireworks?",
+        "filename":"json_scraper_fireworks.py"
+    },
+    {
+        "prompt": "How to create a script in Scrapegraphai for scraping multiple JSONs in fireworks?",
+        "filename":"json_scraper_multi_fireworks.py"
+    }
+]
