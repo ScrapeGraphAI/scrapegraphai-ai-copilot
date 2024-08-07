@@ -136,12 +136,12 @@ def remove_filename_key_from_examples(examples_dir):
 
 def main():
     # Define paths
-    base_dir = "/Users/marcovinciguerra/github/Scrapegraph-ai/scrapegraphai"
-    output_dir = "/Users/marcovinciguerra/github/scrapegraphai-ai-copilot/implementation"
-    config_dir = "/Users/marcovinciguerra/github/scrapegraphai-ai-copilot/Configurations"
-    script_base_dir = "/Users/marcovinciguerra/github/Scrapegraph-ai/examples"
-    ollama_script_dir = "/Users/marcovinciguerra/github/Scrapegraph-ai/examples/local_models"
-    new_config_dir = "/Users/marcovinciguerra/github/scrapegraphai-ai-copilot/Examples"
+    base_dir = "/home/vedo/Documents/GitHub/Scrapegraph-ai/scrapegraphai"
+    output_dir = "/home/vedo/Documents/GitHub/scrapegraphai-ai-copilot/implementation"
+    config_dir = "/home/vedo/Documents/GitHub/scrapegraphai-ai-copilot/Configurations"
+    script_base_dir = "/home/vedo/Documents/GitHub/Scrapegraph-ai/examples"
+    ollama_script_dir = "/home/vedo/Documents/GitHub/Scrapegraph-ai/examples/local_models"
+    new_config_dir = "/home/vedo/Documents/GitHub/scrapegraphai-ai-copilot/Examples"
     examples_dir = new_config_dir
 
     # Process base directory
